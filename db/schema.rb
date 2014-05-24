@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140524142009) do
+ActiveRecord::Schema.define(version: 20140524170438) do
 
-  create_table "skill_groups", force: true do |t|
+  create_table "skill_categories", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
