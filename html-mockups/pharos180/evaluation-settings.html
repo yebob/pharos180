@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pHaRos 180&deg; - A competency evaluation manager</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='text/html;charset=utf-8' http-equiv='content-type'>
+    <meta content='pHaRos 180&deg; is a cloud-enabled Human Resources competency evaluation manager.' name='description'>
+    <link href='assets/images/meta_icons/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href='assets/images/meta_icons/apple-touch-icon.png' rel='apple-touch-icon-precomposed'>
+    <link href='assets/images/meta_icons/apple-touch-icon-57x57.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+    <link href='assets/images/meta_icons/apple-touch-icon-72x72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+    <link href='assets/images/meta_icons/apple-touch-icon-114x114.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+    <link href='assets/images/meta_icons/apple-touch-icon-144x144.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+    <!-- / START - page related stylesheets [optional] -->
+    
+    <!-- / END - page related stylesheets [optional] -->
+    <!-- / bootstrap [required] -->
+    <link href="assets/stylesheets/bootstrap/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- / theme file [required] -->
+    <link href="assets/stylesheets/light-theme.css" media="all" id="color-settings-body-color" rel="stylesheet" type="text/css" />
+    <!-- / coloring file [optional] (if you are going to use custom contrast color) -->
+    <link href="assets/stylesheets/theme-colors.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- / demo file [not required!] -->
+    <!-- link href="assets/stylesheets/demo.css" media="all" rel="stylesheet" type="text/css" / -->
+    <!--[if lt IE 9]>
+      <script src="assets/javascripts/ie/html5shiv.js" type="text/javascript"></script>
+      <script src="assets/javascripts/ie/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body class='contrast-blue fixed-header fixed-navigation'>
+    <header>
+      <nav class='navbar navbar-default navbar-fixed-top'>
+        <a class='toggle-nav btn pull-left' href='#'>
+          <i class='icon-reorder'></i>
+        </a>
+        <a class='navbar-brand' href='index.html'>
+          <img width="117" height="18" class="logo" alt="pHaRos" src="assets/images/logo2.png" />
+          <img width="21" height="21" class="logo-xs" alt="pHaRos" src="assets/images/logo_xs.svg" />
+        </a>
+        <ul class='nav'>
+          <li class='dropdown light only-icon'>
+            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+              <i class='icon-cog'></i>
+            </a>
+            <!-- ul class='dropdown-menu color-settings'>
+              <li class='color-settings-body-color'>
+                <div class='color-title'>Body color</div>
+                <a data-change-to='assets/stylesheets/light-theme.css' href='#'>
+                  Light
+                  <small>(default)</small>
+                </a>
+                <a data-change-to='assets/stylesheets/dark-theme.css' href='#'>
+                  Dark
+                </a>
+                <a data-change-to='assets/stylesheets/dark-blue-theme.css' href='#'>
+                  Dark blue
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li class='color-settings-contrast-color'>
+                <div class='color-title'>Contrast color</div>
+                            <a data-change-to="contrast-red" href="#"><i class='icon-cog text-red'></i>
+                Red
+                <small>(default)</small>
+                </a>
+    
+                            <a data-change-to="contrast-blue" href="#"><i class='icon-cog text-blue'></i>
+                Blue
+                </a>
+    
+                            <a data-change-to="contrast-orange" href="#"><i class='icon-cog text-orange'></i>
+                Orange
+                </a>
+    
+                            <a data-change-to="contrast-purple" href="#"><i class='icon-cog text-purple'></i>
+                Purple
+                </a>
+    
+                            <a data-change-to="contrast-green" href="#"><i class='icon-cog text-green'></i>
+                Green
+                </a>
+    
+                            <a data-change-to="contrast-muted" href="#"><i class='icon-cog text-muted'></i>
+                Muted
+                </a>
+    
+                            <a data-change-to="contrast-fb" href="#"><i class='icon-cog text-fb'></i>
+                Facebook
+                </a>
+    
+                            <a data-change-to="contrast-dark" href="#"><i class='icon-cog text-dark'></i>
+                Dark
+                </a>
+    
+                            <a data-change-to="contrast-pink" href="#"><i class='icon-cog text-pink'></i>
+                Pink
+                </a>
+    
+                            <a data-change-to="contrast-grass-green" href="#"><i class='icon-cog text-grass-green'></i>
+                Grass green
+                </a>
+    
+                            <a data-change-to="contrast-sea-blue" href="#"><i class='icon-cog text-sea-blue'></i>
+                Sea blue
+                </a>
+    
+                            <a data-change-to="contrast-banana" href="#"><i class='icon-cog text-banana'></i>
+                Banana
+                </a>
+    
+                            <a data-change-to="contrast-dark-orange" href="#"><i class='icon-cog text-dark-orange'></i>
+                Dark orange
+                </a>
+    
+                            <a data-change-to="contrast-brown" href="#"><i class='icon-cog text-brown'></i>
+                Brown
+                </a>
+    
+              </li>
+            </ul -->
+          </li>
+          <!-- li class='dropdown medium only-icon widget'>
+            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+              <i class='icon-rss'></i>
+              <div class='label'>5</div>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href='#'>
+                  <div class='widget-body'>
+                    <div class='pull-left icon'>
+                      <i class='icon-user text-success'></i>
+                    </div>
+                    <div class='pull-left text'>
+                      John Doe signed up
+                      <small class='text-muted'>just now</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='#'>
+                  <div class='widget-body'>
+                    <div class='pull-left icon'>
+                      <i class='icon-inbox text-error'></i>
+                    </div>
+                    <div class='pull-left text'>
+                      New Order #002
+                      <small class='text-muted'>3 minutes ago</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='#'>
+                  <div class='widget-body'>
+                    <div class='pull-left icon'>
+                      <i class='icon-comment text-warning'></i>
+                    </div>
+                    <div class='pull-left text'>
+                      America Leannon commented Flatty with veeery long text.
+                      <small class='text-muted'>1 hour ago</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='#'>
+                  <div class='widget-body'>
+                    <div class='pull-left icon'>
+                      <i class='icon-user text-success'></i>
+                    </div>
+                    <div class='pull-left text'>
+                      Jane Doe signed up
+                      <small class='text-muted'>last week</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='#'>
+                  <div class='widget-body'>
+                    <div class='pull-left icon'>
+                      <i class='icon-inbox text-error'></i>
+                    </div>
+                    <div class='pull-left text'>
+                      New Order #001
+                      <small class='text-muted'>1 year ago</small>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class='widget-footer'>
+                <a href='#'>All notifications</a>
+              </li>
+            </ul>
+          </li -->
+          <li class='dropdown dark user-menu'>
+            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+              <img width="23" height="23" alt="Mila Kunis" src="assets/images/avatar.jpg" />
+              <span class='user-name'>Alexandre Nigri</span>
+              <b class='caret'></b>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href='user_profile.html'>
+                  <i class='icon-user'></i>
+                  Profile
+                </a>
+              </li>
+              <li>
+                <a href='user_profile.html'>
+                  <i class='icon-cog'></i>
+                  Settings
+                </a>
+              </li>
+              <li class='divider'></li>
+              <li>
+                <a href='sign_in.html'>
+                  <i class='icon-signout'></i>
+                  Sign out
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form action='search_results.html' class='navbar-form navbar-right hidden-xs' method='get'>
+          <button class='btn btn-link icon-search' name='button' type='submit'></button>
+          <div class='form-group'>
+            <input value="" class="form-control" placeholder="Search..." autocomplete="off" id="q_header" name="q" type="text" />
+          </div>
+        </form>
+      </nav>
+    </header>
+    <div id='wrapper'>
+      <div id='main-nav-bg'></div>
+      <nav class='main-nav-fixed' id='main-nav'>
+        <div class='navigation'>
+          <div class='search'>
+            <form action='search_results.html' method='get'>
+              <div class='search-wrapper'>
+                <input value="" class="search-query form-control" placeholder="Search..." autocomplete="off" name="q" type="text" />
+                <button class='btn btn-link icon-search' name='button' type='submit'></button>
+              </div>
+            </form>
+          </div>
+          <ul class='nav nav-stacked'>
+            <li class=''>
+              <a href='evaluation-cycles.html'>
+                <i class='icon-calendar'></i>
+                <span>Ciclos de Avaliação</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href="evaluations.html">
+                <i class='icon-check'></i>
+                <span>Avalia&ccedil;&otilde;es</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href="goals.html">
+                <i class='icon-bar-chart'></i>
+                <span>Metas (P.D.I.)</span>
+              </a>
+            </li>
+            <li>
+            <li class='active'>
+              <a href="evaluation-settings.html">
+                <i class='icon-gears'></i>
+                <span>Configura&ccedil;&atilde;o da Avalia&ccedil;&atilde;o</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href="team-management.html">
+                <i class='icon-group'></i>
+                <span>Gest&atilde;o da Equipe</span>
+              </a>
+            </li>
+            <li>
+            <!-- li>
+              <a class='dropdown-collapse ' href='#'>
+                <i class='icon-tint'></i>
+                <span>UI Elements & Widgets</span>
+                <i class='icon-angle-down angle-down'></i>
+              </a>
+              <ul class='nav nav-stacked'>
+                <li class=''>
+                  <a href='ui_elements.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>UI Elements</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='widgets.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>Widgets</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class=''>
+              <a href='buttons_and_icons.html'>
+                <i class='icon-star'></i>
+                <span>Buttons & Icons</span>
+              </a>
+            </li>
+            <li>
+              <a class='dropdown-collapse ' href='#'>
+                <i class='icon-cogs'></i>
+                <span>Components</span>
+                <i class='icon-angle-down angle-down'></i>
+              </a>
+              <ul class='nav nav-stacked'>
+                <li class=''>
+                  <a href='charts.html'>
+                    <i class='icon-bar-chart'></i>
+                    <span>Charts</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='address_book.html'>
+                    <i class='icon-envelope'></i>
+                    <span>Address book</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='chats.html'>
+                    <i class='icon-comments'></i>
+                    <span>Chats</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='filetrees.html'>
+                    <i class='icon-list-ul'></i>
+                    <span>File trees</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='fileupload.html'>
+                    <i class='icon-file'></i>
+                    <span>Fileupload</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='todo.html'>
+                    <i class='icon-list-alt'></i>
+                    <span>Todo list</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='wysiwyg.html'>
+                    <i class='icon-paste'></i>
+                    <span>WYSIWYG</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class=''>
+              <a href='tables.html'>
+                <i class='icon-table'></i>
+                <span>Tables</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href='grid.html'>
+                <i class='icon-th'></i>
+                <span>Grid</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href='type.html'>
+                <i class='icon-font'></i>
+                <span>Typography</span>
+              </a>
+            </li>
+            <li class=''>
+              <a href='calendar.html'>
+                <i class='icon-calendar'></i>
+                <span>Calendar</span>
+              </a>
+            </li>
+            <li>
+              <a class='dropdown-collapse ' href='#'>
+                <i class='icon-book'></i>
+                <span>Example pages</span>
+                <i class='icon-angle-down angle-down'></i>
+              </a>
+              <ul class='nav nav-stacked'>
+                <li class=''>
+                  <a href='invoice.html'>
+                    <i class='icon-money'></i>
+                    <span>Invoice</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='gallery.html'>
+                    <i class='icon-picture'></i>
+                    <span>Gallery</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='timeline.html'>
+                    <i class='icon-time'></i>
+                    <span>Timeline</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='pricing_tables.html'>
+                    <i class='icon-table'></i>
+                    <span>Pricing tables</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='user_profile.html'>
+                    <i class='icon-user'></i>
+                    <span>User profile</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='err404.html' target='_blank'>
+                    <i class='icon-question-sign'></i>
+                    <span>404 Error</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='err500.html' target='_blank'>
+                    <i class='icon-cogs'></i>
+                    <span>500 Error</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='sign_in.html' target='_blank'>
+                    <i class='icon-signin'></i>
+                    <span>Sign in</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='faq.html'>
+                    <i class='icon-bullhorn'></i>
+                    <span>FAQ</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='orders.html'>
+                    <i class='icon-inbox'></i>
+                    <span>Orders</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='search_results.html'>
+                    <i class='icon-search'></i>
+                    <span>Search results</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='blank.html'>
+                    <i class='icon-circle-blank'></i>
+                    <span>Blank page</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class='dropdown-collapse in' href='#'>
+                <i class='icon-cog'></i>
+                <span>Layouts</span>
+                <i class='icon-angle-down angle-down'></i>
+              </a>
+              <ul class='in nav nav-stacked'>
+                <li class=''>
+                  <a href='closed_navigation.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>Closed navigation</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='fixed_header.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>Fixed header</span>
+                  </a>
+                </li>
+                <li class=''>
+                  <a href='fixed_navigation.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>Fixed navigation</span>
+                  </a>
+                </li>
+                <li class='active'>
+                  <a href='fixed_navigation_and_header.html'>
+                    <i class='icon-caret-right'></i>
+                    <span>Fixed navigation & header</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class=''>
+              <a href='email_templates.html'>
+                <i class='icon-mail-reply'></i>
+                <span>Email templates</span>
+              </a>
+            </li>
+            <li>
+              <a class='dropdown-collapse' href='#'>
+                <i class='icon-folder-open-alt'></i>
+                <span>Four level dropdown</span>
+                <i class='icon-angle-down angle-down'></i>
+              </a>
+              <ul class='nav nav-stacked'>
+                <li>
+                  <a class='dropdown-collapse' href='#'>
+                    <i class='icon-caret-right'></i>
+                    <span>Second level</span>
+                    <i class='icon-angle-down angle-down'></i>
+                  </a>
+                  <ul class='nav nav-stacked'>
+                    <li>
+                      <a class='dropdown-collapse' href='#'>
+                        <i class='icon-caret-right'></i>
+                        <span>Third level</span>
+                        <i class='icon-angle-down angle-down'></i>
+                      </a>
+                      <ul class='nav nav-stacked'>
+                        <li>
+                          <a href='#'>
+                            <i class='icon-caret-right'></i>
+                            <span>Fourth level</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href='#'>
+                            <i class='icon-caret-right'></i>
+                            <span>Another fourth level</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li -->
+          </ul>
+        </div>
+      </nav>
+      <section id='content'>
+        <div class='container'>
+          <div class='row' id='content-wrapper'>
+            <div class='col-xs-12'>
+              <div class='row'>
+                <div class='col-sm-12'>
+                  <div class='page-header'>
+                    <h1 class='pull-left'>
+                      <i class='icon-gears'></i>
+                      <span>Configura&ccedil;&atilde;o da Avalia&ccedil;&atilde;o</span>
+                    </h1>
+                    <!-- div class='pull-right'>
+                      <ul class='breadcrumb'>
+                        <li>
+                          <a href='index.html'>
+                            <i class='icon-bar-chart'></i>
+                          </a>
+                        </li>
+                        <li class='separator'>
+                          <i class='icon-angle-right'></i>
+                        </li>
+                        <li>Layouts</li>
+                        <li class='separator'>
+                          <i class='icon-angle-right'></i>
+                        </li>
+                        <li class='active'>Fixed navigation & header</li>
+                      </ul>
+                    </div -->
+                  </div>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-sm-4 box'>
+                  <div class='box-header'>
+                    <div class='title'>Compet&ecirc;ncias</div>
+                    <div class='actions'>
+                      <a class="btn btn-xs btn-link" href="skill-settings.html"><i class='icon-gear'></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='box-content'>
+                    <div class='accordion accordion-blue accordion-contrast panel-group' id='accordion' style='margin-bottom:0;'>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion' data-toggle='collapse' href='#collapseOne-accordion'>
+                            Corporativas
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse in' id='collapseOne-accordion'>
+                          <div class='panel-body'>
+                    <div class='dd dd-nestable'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+			    Transpar&ecirc;ncia
+			  </div>
+                        </li>
+                      </ul>
+                    </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion' data-toggle='collapse' href='#collapseTwo-accordion'>
+                            Gerenciais
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseTwo-accordion'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Gest&atilde;o de Pessoas
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Gest&atilde;o de Conhecimento
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Vis&atilde;o Estrat&eacute;gica
+                          </div>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion' data-toggle='collapse' href='#collapseThree-accordion'>
+                            Espec&iacute;ficas
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseThree-accordion'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='col-sm-4 box'>
+                  <div class='box-header'>
+                    <div class='title'>Espa&ccedil;os Ocupacionais</div>
+                    <div class='actions'>
+                      <a class="btn btn-xs btn-link" href="profile-settings.html"><i class='icon-gear'></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='box-content'>
+                    <div class='accordion accordion-blue panel-group' id='accordion1' style='margin-bottom:0;'>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion1' data-toggle='collapse' href='#collapseOne-accordion1'>
+                            T&eacute;cnicos
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse in' id='collapseOne-accordion1'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Mantenedores
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Criadores
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion1' data-toggle='collapse' href='#collapseTwo-accordion1'>
+                            Neg&oacute;cios
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseTwo-accordion1'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+	 	      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion1' data-toggle='collapse' href='#collapseTwo-accordion1'>
+                            Suporte
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseTwo-accordion1'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion1' data-toggle='collapse' href='#collapseThree-accordion1'>
+                            Executivos
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseThree-accordion1'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='col-sm-4 box'>
+                  <div class='box-header'>
+                    <div class='title'>Cargos</div>
+                    <div class='actions'>
+                      <a class="btn btn-xs btn-link" href="position-settings.html"><i class='icon-gear'></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class='box-content'>
+                    <div class='accordion accordion-blue panel-group' id='accordion2' style='margin-bottom:0;'>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseOne-accordion2'>
+                            Tecnologia
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse in' id='collapseOne-accordion2'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Analista de Sistemas Jr.
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Analista de Sistemas Pl.
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Analista de Sistemas Sr.
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Especiaista de Sistemas
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseTwo-accordion2'>
+                            Opera&ccedil;&otilde;es
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseTwo-accordion2'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='panel panel-default'>
+                        <div class='panel-heading'>
+                          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseThree-accordion2'>
+                            Gest&atilde;o de Pessoas
+                          </a>
+                        </div>
+                        <div class='panel-collapse collapse' id='collapseThree-accordion2'>
+                          <div class='panel-body'>
+                      <ul class='dd-list'>
+                        <li class='dd-item' data-id='1'>
+                          <div class='dd-handle2'>
+                            Foco no Resultado
+                          </div>
+                        </li>
+                        <li class='dd-item' data-id='2'>
+                          <div class='dd-handle2'>
+                            Inova&ccedil;&atilde;o
+                          </div>
+                        <li class='dd-item' data-id='3'>
+                          <div class='dd-handle2'>
+                            Relacionamento
+                          </div>
+                        <li class='dd-item' data-id='4'>
+                          <div class='dd-handle2'>
+                            Transpar&ecirc;ncia
+                          </div>
+                        </li>
+                      </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer id='footer'>
+            <div class='footer-wrapper'>
+              <div class='row'>
+                <div class='col-sm-6 text'>
+                  Copyright 2014 Bionexo
+                </div>
+                <div class='col-sm-6 buttons'>
+                  <a target="_blank" class="btn btn-link" href="https://github.com/Bionexo/pharos180">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </div>
+    <!-- / jquery [required] -->
+    <script src="assets/javascripts/jquery/jquery.min.js" type="text/javascript"></script>
+    <!-- / jquery mobile (for touch events) -->
+    <script src="assets/javascripts/jquery/jquery.mobile.custom.min.js" type="text/javascript"></script>
+    <!-- / jquery migrate (for compatibility with new jquery) [required] -->
+    <script src="assets/javascripts/jquery/jquery-migrate.min.js" type="text/javascript"></script>
+    <!-- / jquery ui -->
+    <script src="assets/javascripts/jquery/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- / jQuery UI Touch Punch -->
+    <script src="assets/javascripts/plugins/jquery_ui_touch_punch/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+    <!-- / bootstrap [required] -->
+    <script src="assets/javascripts/bootstrap/bootstrap.js" type="text/javascript"></script>
+    <!-- / modernizr -->
+    <script src="assets/javascripts/plugins/modernizr/modernizr.min.js" type="text/javascript"></script>
+    <!-- / retina -->
+    <script src="assets/javascripts/plugins/retina/retina.js" type="text/javascript"></script>
+    <!-- / theme file [required] -->
+    <script src="assets/javascripts/theme.js" type="text/javascript"></script>
+    <!-- / demo file [not required!] -->
+    <script src="assets/javascripts/demo.js" type="text/javascript"></script>
+    <!-- / START - page related files and scripts [optional] -->
+    
+    <!-- / END - page related files and scripts [optional] -->
+  </body>
+</html>
