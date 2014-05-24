@@ -6,6 +6,7 @@ pHaRos 180&deg; is a cloud-enabled Human Resources competency evaluation manager
   - Developed using Ruby on Rails
   - Uses the Flatty Bootstrap theme
   - Open Source
+  - Uses google sign-in for authentication
 
 pHaRos 180&deg; was idealized and developed by the [Bionexo] Technology team to help the Human Resources department to evolve their competency evaluation program, as they write:
 
