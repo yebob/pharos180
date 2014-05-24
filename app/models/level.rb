@@ -1,4 +1,4 @@
 class Level < ActiveRecord::Base
-	belongs_to :proficiency_level
+	has_many :proficiency_levels
 	validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
 end

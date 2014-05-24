@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140524204817) do
 
-  create_table "level", force: true do |t|
+  create_table "levels", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"

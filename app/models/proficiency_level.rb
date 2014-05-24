@@ -1,5 +1,5 @@
 class ProficiencyLevel < ActiveRecord::Base
-	has_one :level
-	has_one :skill
-	has_one :position
+	belongs_to :level
+	belongs_to :skill
+	belongs_to :position
 end
