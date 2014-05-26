@@ -24,13 +24,18 @@ class SkillsController < ApplicationController
   # POST /skills
   # POST /skills.json
   def create
+
+    binding.pry # breakpoint
+
     @skill = Skill.new(skill_params)
 
     respond_to do |format|
       if @skill.save
+        binding.pry # breakpoint
         format.html { redirect_to @skill, notice: 'Skill was successfully created.' }
         format.json { render :show, status: :created, location: @skill }
       else
+        binding.pry # breakpoint
         format.html { render :new }
         format.json { render json: @skill.errors, status: :unprocessable_entity }
       end
@@ -69,6 +74,6 @@ class SkillsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def skill_params
-      params[:skill]
+      params.require(:skill).permit(:name, :skill_category_id)
     end
 end
