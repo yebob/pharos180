@@ -13,10 +13,23 @@
 
 ActiveRecord::Schema.define(version: 20140524204817) do
 
+  create_table "areas", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "levels", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "positions", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "area_id"
   end
 
   create_table "proficiency_levels", force: true do |t|
@@ -27,6 +40,25 @@ ActiveRecord::Schema.define(version: 20140524204817) do
     t.integer  "position_id"
   end
 
+  create_table "profiles", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles_users", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "role_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "skill_categories", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -34,7 +66,7 @@ ActiveRecord::Schema.define(version: 20140524204817) do
   end
 
   create_table "skill_relevances", force: true do |t|
-    t.decimal  "score",             precision: 10, scale: 0
+    t.decimal  "score"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "skill_id"
@@ -50,6 +82,15 @@ ActiveRecord::Schema.define(version: 20140524204817) do
 
   create_table "specializations", force: true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.integer  "position_id"
+    t.integer  "profile_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
