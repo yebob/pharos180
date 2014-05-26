@@ -27,4 +27,11 @@ class SkillCategoryTest < ActiveSupport::TestCase
     a_skill_category = SkillCategory.new :name => nil
     assert !a_skill_category.valid?
   end
+
+  test "it should list all skills" do
+    corporate = SkillCategory.create(name: "Corporativa")
+    skill = corporate.skills.build(name: "Foco no Resultado")
+    assert !skill.nil?
+  end
+
 end

@@ -27,5 +27,12 @@ class SkillTest < ActiveSupport::TestCase
     a_skill = Skill.new :name => nil
     assert !a_skill.valid?
   end
+
+  test "should list levels by skills" do
+    level = Level.create name: 'Básico'
+    skill = Skill.create name: 'Foco no resultado'
+    skill.proficiency_levels.create(level: level)
+    assert skill.levels.size > 0
+  end
 end
 
