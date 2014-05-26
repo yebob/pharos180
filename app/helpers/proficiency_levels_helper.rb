@@ -1,0 +1,2 @@
+module ProficiencyLevelsHelper
+end
