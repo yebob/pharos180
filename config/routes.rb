@@ -3,6 +3,17 @@ Rails.application.routes.draw do
 
   resources :skills
 
+  #resources :profiles
+
+     get '/profiles(.:format)', to: 'profiles#index', as: :profile
+     post   '/profiles(.:format)', to: 'profiles#create', as: :profiles
+     get    '/profiles/new(.:format)', to: 'profiles#new', as: :new_profile
+     get    '/profiles/:id/edit(.:format)', to: 'profiles#edit', as: :edit_profile
+     get    '/profiles/:id(.:format)', to: 'profiles#show', as: :show_profile
+     patch '/profiles/:id(.:format)', to: 'profiles#update', as: :update_profile1
+     put    '/profiles/:id(.:format)', to: 'profiles#update', as: :update_profile2
+     delete '/profiles/:id(.:format)', to: 'profiles#destroy', as: :delete_profile
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
