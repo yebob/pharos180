@@ -3,6 +3,16 @@ Rails.application.routes.draw do
 
   resources :skills
 
+  #configuracao das rotas para roles
+  get 'roles' => 'roles#index', as: :roles
+  get 'roles/new' => 'roles#new', as: :new_role
+  get 'roles/:id/edit' => 'roles#edit', as: :edit_role
+  get 'roles/:id' => 'roles#show', as: :role
+  post 'roles' => 'roles#create'
+  delete 'roles/:id' => 'roles#destroy'
+  put 'roles/:id' => 'roles#update'
+  patch 'roles/:id' => 'roles#update'
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
