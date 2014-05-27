@@ -1,4 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+
+<td><%= @proficiency_level.level.name %></td>
+<td><%= @proficiency_level.position.name %></td>
+<td><%= @proficiency_level.skill.name %></td>
+
 <%= link_to 'Edit', edit_proficiency_level_path(@proficiency_level) %> |
 <%= link_to 'Back', proficiency_levels_path %>

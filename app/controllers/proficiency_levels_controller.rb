@@ -69,6 +69,6 @@ class ProficiencyLevelsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def proficiency_level_params
-      params[:proficiency_level]
+      params.require(:proficiency_level).permit(:level_id, :skill_id, :position_id)
     end
 end
