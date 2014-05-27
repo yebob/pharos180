@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :positions
   resources :users
   resources :areas 
-  resoucers :profiles
+  resources :profiles
   resources :roles
 
 
