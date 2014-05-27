@@ -1,24 +1,36 @@
 <h1>Listing skill_relevances</h1>
 
-<table>
+<table class='table table-bordered table-hover table-condensed' style="width: 80%;">
 
-  <tbody>
+  <thead>
     <tr>
-      <td>  Score </td>
-      <td>  Skill </td>
-      <td>  Specialization </td>
-      <td> Show </td>
-      <td> Edit </td>
-      <td> Destroy </td>
+      <th class="center">  Score </th>
+      <th>  Skill </th>
+      <th>  Specialization </th>
+      <th> Actions </th>
     </tr>
+  </thead>
+  <tbody>
     <% @skill_relevances.each do |skill_relevance| %>
       <tr>
-        <td align = 'center'>  <%=skill_relevance.score%> </td>
-        <td align = 'center'>  <%=skill_relevance.skill.name%> </td>
-        <td align = 'center'>  <%=skill_relevance.specialization.name%> </td>
-        <td><%= link_to 'Show', skill_relevance %></td>
-        <td><%= link_to 'Edit', edit_skill_relevance_path(skill_relevance) %></td>
-        <td><%= link_to 'Destroy', skill_relevance, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>  <%=skill_relevance.score%> </td>
+        <td>  <%=skill_relevance.skill.name%> </td>
+        <td>  <%=skill_relevance.specialization.name%> </td>
+        <td>
+          <div class="btn-group">
+            <a href="<%= skill_relevance_path skill_relevance%>" class="btn btn-default" >
+              <span class="glyphicon glyphicon-eye-open"></span>
+            </a>
+            <a href="<%= edit_skill_relevance_path(skill_relevance) %>" class="btn btn-default">
+              <span class="glyphicon glyphicon-pencil"></span>
+            </a>
+            <a href="<%= skill_relevance_path skill_relevance %>"
+               data-method='delete' data-confirm='Are you sure?'
+               class="btn btn-default">
+              <span class="glyphicon glyphicon-remove"></span>
+            </a>
+          </div>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +38,4 @@
 
 <br>
 
-<%= link_to 'New Skill relevance', new_skill_relevance_path %>
+<%= link_to 'New Skill relevance', new_skill_relevance_path, :class => 'btn btn-primary' %>
