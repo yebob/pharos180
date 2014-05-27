@@ -2,6 +2,26 @@ Rails.application.routes.draw do
 
 
   resources :skills
+  resources :positions
+  # get '/positions(.:format)', to: 'positions#index', as: :position
+  # post '/positions(.:format)', to: 'positions#create'
+  # get '/positions/new(.:format)', to: 'positions#new', as: :new_position
+  # get '/positions/:id/edit(.:format)', to: 'positions#edit', as: :edit_position 
+  # get '/positions/:id(.:format)', to: 'positions#show', as: :positions
+  # patch '/positions/:id(.:format)', to: 'positions#update'
+  # put '/positions/:id(.:format)', to: 'positions#update'
+  # delete '/positions/:id(.:format)', to: 'positions#destroy'
+
+
+  #resources :users
+  #configuracao das rotas para Users
+  get '/usuarios', to:'users#index',as: :users
+  get '/usuarios/novo', to: 'users#new', as: :new_user
+  post '/usuarios', to:'users#create'
+  delete '/usuarios/apagar', to:'skills#destroy'
+  get '/users/:id', to: 'users#show', as: :user
+  put '/users/:id', to: 'users#update'
+  get '/users/:id/edit', to: 'users#edit', as: :edit_user
 
 
   get '/areas(.:format)', to: 'areas#index', as: :areas
@@ -32,7 +52,6 @@ Rails.application.routes.draw do
   delete 'roles/:id' => 'roles#destroy'
   put 'roles/:id' => 'roles#update'
   patch 'roles/:id' => 'roles#update'
-
 
 
   # The priority is based upon order of creation: first created -> highest priority.
