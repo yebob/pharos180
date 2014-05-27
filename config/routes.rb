@@ -2,6 +2,16 @@ Rails.application.routes.draw do
 
 
   resources :skills
+  resources :positions
+  # get '/positions(.:format)', to: 'positions#index', as: :position
+  # post '/positions(.:format)', to: 'positions#create'
+  # get '/positions/new(.:format)', to: 'positions#new', as: :new_position
+  # get '/positions/:id/edit(.:format)', to: 'positions#edit', as: :edit_position 
+  # get '/positions/:id(.:format)', to: 'positions#show', as: :positions
+  # patch '/positions/:id(.:format)', to: 'positions#update'
+  # put '/positions/:id(.:format)', to: 'positions#update'
+  # delete '/positions/:id(.:format)', to: 'positions#destroy'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
