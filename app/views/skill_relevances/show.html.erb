@@ -1,4 +1,18 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Score:</strong>
+  <%= @skill_relevance.score %>
+</p>
+
+<p>
+  <strong>Skill:</strong>
+  <%= @skill_relevance.skill.name %>
+</p>
+
+<p>
+  <strong>Specialization:</strong>
+  <%= @skill_relevance.specialization.name %>
+</p>
 <%= link_to 'Edit', edit_skill_relevance_path(@skill_relevance) %> |
 <%= link_to 'Back', skill_relevances_path %>
