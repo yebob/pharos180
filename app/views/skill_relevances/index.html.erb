@@ -5,8 +5,8 @@
   <tbody>
     <tr>
       <td>  Score </td>
-      <td>  Skill_id </td>
-      <td>  Specialization_id </td>
+      <td>  Skill </td>
+      <td>  Specialization </td>
       <td> Show </td>
       <td> Edit </td>
       <td> Destroy </td>
@@ -14,8 +14,8 @@
     <% @skill_relevances.each do |skill_relevance| %>
       <tr>
         <td align = 'center'>  <%=skill_relevance.score%> </td>
-        <td align = 'center'>  <%=skill_relevance.skill_id%> </td>
-        <td align = 'center'>  <%=skill_relevance.specialization_id%> </td>
+        <td align = 'center'>  <%=skill_relevance.skill.name%> </td>
+        <td align = 'center'>  <%=skill_relevance.specialization.name%> </td>
         <td><%= link_to 'Show', skill_relevance %></td>
         <td><%= link_to 'Edit', edit_skill_relevance_path(skill_relevance) %></td>
         <td><%= link_to 'Destroy', skill_relevance, method: :delete, data: { confirm: 'Are you sure?' } %></td>

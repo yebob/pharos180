@@ -12,8 +12,8 @@
   <% end %>
 
   Score: <%= f.text_field :score %> <br>
-  Skill id: <%= f.text_field :skill_id %> <br>
-  Specialization id: <%= f.text_field :specialization_id %> <br>
+  Skill: <%= collection_select(:skill_relevance, :skill_id, Skill.all, :id, :name) %> <br>
+  Specialization: <%= collection_select(:skill_relevance, :specialization_id, Specialization.all, :id, :name) %><br>
 
   <div class="actions">
     <%= f.submit %>

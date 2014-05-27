@@ -6,13 +6,13 @@
 </p>
 
 <p>
-  <strong>Skill_id:</strong>
-  <%= @skill_relevance.skill_id %>
+  <strong>Skill:</strong>
+  <%= @skill_relevance.skill.name %>
 </p>
 
 <p>
-  <strong>Specialization_id:</strong>
-  <%= @skill_relevance.specialization_id %>
+  <strong>Specialization:</strong>
+  <%= @skill_relevance.specialization.name %>
 </p>
 <%= link_to 'Edit', edit_skill_relevance_path(@skill_relevance) %> |
 <%= link_to 'Back', skill_relevances_path %>
