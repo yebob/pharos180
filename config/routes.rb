@@ -3,6 +3,16 @@ Rails.application.routes.draw do
 
   resources :skills
 
+  #resources :users
+
+  get '/usuarios', to:'users#index',as: :users
+  get '/usuarios/novo', to: 'users#new', as: :new_user
+  post '/usuarios', to:'users#create'
+  delete '/usuarios/apagar', to:'skills#destroy'
+  get '/users/:id', to: 'users#show', as: :user
+  put '/users/:id', to: 'users#update'
+  get '/users/:id/edit', to: 'users#edit', as: :edit_user
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
