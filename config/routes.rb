@@ -4,11 +4,12 @@ Rails.application.routes.draw do
   resources :skills
   resources :positions
   resources :users
-  resources :areas 
+  resources :areas
   resources :profiles
   resources :roles
   resources :specializations
   resources :levels
+  resources :skill_relevances
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
