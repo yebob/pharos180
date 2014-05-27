@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :skills
 
+
   get '/areas(.:format)', to: 'areas#index', as: :areas
   post '/areas(.:format)', to: 'areas#create'
   get '/areas/new(.:format)', to: 'areas#new', as: :new_area
@@ -12,15 +13,26 @@ Rails.application.routes.draw do
   put '/areas/:id(.:format)', to: 'areas#update'
   delete '/areas/:id(.:format)', to: 'areas#destroy'
 
-      #     Prefix Verb   URI Pattern                   Controller#Action
-   #     skills GET    /skills(.:format)             skills#index
-   #            POST   /skills(.:format)             skills#create
-   #  new_skill GET    /skills/new(.:format)         skills#new
-   # edit_skill GET    /skills/:id/edit(.:format)    skills#edit
-   #      skill GET    /skills/:id(.:format)         skills#show
-   #            PATCH  /skills/:id(.:format)         skills#update
-   #            PUT    /skills/:id(.:format)         skills#update
-              # DELETE /skills/:id(.:format)         skills#destroy
+   #configuracao das rotas para profiles
+  get '/profiles(.:format)', to: 'profiles#index', as: :profile
+  post   '/profiles(.:format)', to: 'profiles#create', as: :profiles
+  get    '/profiles/new(.:format)', to: 'profiles#new', as: :new_profile
+  get    '/profiles/:id/edit(.:format)', to: 'profiles#edit', as: :edit_profile
+  get    '/profiles/:id(.:format)', to: 'profiles#show', as: :show_profile
+  patch '/profiles/:id(.:format)', to: 'profiles#update', as: :update_profile1
+  put    '/profiles/:id(.:format)', to: 'profiles#update', as: :update_profile2
+  delete '/profiles/:id(.:format)', to: 'profiles#destroy', as: :delete_profile
+
+  #configuracao das rotas para roles
+  get 'roles' => 'roles#index', as: :roles
+  get 'roles/new' => 'roles#new', as: :new_role
+  get 'roles/:id/edit' => 'roles#edit', as: :edit_role
+  get 'roles/:id' => 'roles#show', as: :role
+  post 'roles' => 'roles#create'
+  delete 'roles/:id' => 'roles#destroy'
+  put 'roles/:id' => 'roles#update'
+  patch 'roles/:id' => 'roles#update'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
