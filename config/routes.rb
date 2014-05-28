@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :skills
   resources :positions
+  resources :rolesUser
   # get '/positions(.:format)', to: 'positions#index', as: :position
   # post '/positions(.:format)', to: 'positions#create'
   # get '/positions/new(.:format)', to: 'positions#new', as: :new_position
