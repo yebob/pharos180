@@ -1,10 +1,10 @@
-class SkillCatsController < ApplicationController
+class SkillCategoriesController < ApplicationController
   before_action :set_skill_cat, only: [:show, :edit, :update, :destroy]
 
   # GET /skill_cats
   # GET /skill_cats.json
   def index
-    @skill_cats = SkillCat.all
+    @skill_cats = SkillCategory.all
   end
 
   # GET /skill_cats/1
@@ -14,7 +14,7 @@ class SkillCatsController < ApplicationController
 
   # GET /skill_cats/new
   def new
-    @skill_cat = SkillCat.new
+    @skill_cat = SkillCategory.new
   end
 
   # GET /skill_cats/1/edit
@@ -24,7 +24,7 @@ class SkillCatsController < ApplicationController
   # POST /skill_cats
   # POST /skill_cats.json
   def create
-    @skill_cat = SkillCat.new(skill_cat_params)
+    @skill_cat = SkillCategory.new(skill_cat_params)
 
     respond_to do |format|
       if @skill_cat.save
@@ -56,7 +56,7 @@ class SkillCatsController < ApplicationController
   def destroy
     @skill_cat.destroy
     respond_to do |format|
-      format.html { redirect_to skill_cats_url, notice: 'Skill cat was successfully destroyed.' }
+      format.html { redirect_to skill_categories_url, notice: 'Skill cat was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -64,11 +64,11 @@ class SkillCatsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_skill_cat
-      @skill_cat = SkillCat.find(params[:id])
+      @skill_cat = SkillCategory.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def skill_cat_params
-      params[:skill_cat]
+      params.require(:skill_category).permit(:name)
     end
 end

@@ -69,6 +69,6 @@ class SpecializationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def specialization_params
-      params[:specialization]
+      params.require(:specialization).permit(:name, :specialization_id)
     end
 end

@@ -11,6 +11,13 @@
     </div>
   <% end %>
 
+  Level
+  <%= collection_select(:proficiency_level, :level_id, Level.all, :id, :name) %> <br>
+  Position
+  <%= collection_select(:proficiency_level, :position_id, Position.all, :id, :name) %> <br>
+  Skill
+  <%= collection_select(:proficiency_level, :skill_id, Skill.all, :id, :name) %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

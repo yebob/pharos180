@@ -10,6 +10,9 @@
   <tbody>
     <% @proficiency_levels.each do |proficiency_level| %>
       <tr>
+        <td><%= proficiency_level.level.name %></td>
+        <td><%= proficiency_level.position.name %></td>
+        <td><%= proficiency_level.skill.name %></td>
         <td><%= link_to 'Show', proficiency_level %></td>
         <td><%= link_to 'Edit', edit_proficiency_level_path(proficiency_level) %></td>
         <td><%= link_to 'Destroy', proficiency_level, method: :delete, data: { confirm: 'Are you sure?' } %></td>
