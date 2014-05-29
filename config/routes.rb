@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   resources :specializations
   resources :levels
   resources :skill_relevances
+  root 'dashboard#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
