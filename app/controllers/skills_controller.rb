@@ -15,6 +15,7 @@ class SkillsController < ApplicationController
   # GET /skills/new
   def new
     @skill = Skill.new
+    @skill_categories = SkillCategory.all.pluck(:name,:id)
   end
 
   # GET /skills/1/edit

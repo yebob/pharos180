@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :skill_category_id %><br>
-    <%= f.number_field :skill_category_id %>
+    <%= f.select :skill_category_id, options_for_select(@skill_categories) %>
   </div>
   <div class="actions">
     <%= f.submit %>
