@@ -12,5 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// require turbolinks
 //= require_tree .
+//= require chosen-jquery
+
+$(document).ready(function(){
+	$(".chosen-select").chosen();
+});

@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :skill_category_id %><br>
-    <%= f.select :skill_category_id, options_for_select(@skill_categories) %>
+    <%= f.select :skill_category_id, options_for_select(@skill_categories) , { :include_blank=>true }, {class: 'chosen-select'} %>
   </div>
   <div class="actions">
     <%= f.submit %>
