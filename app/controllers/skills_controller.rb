@@ -1,5 +1,6 @@
 class SkillsController < ApplicationController
   before_action :set_skill, only: [:show, :edit, :update, :destroy]
+  before_action :skill_categories
 
   # GET /skills
   # GET /skills.json
@@ -15,7 +16,6 @@ class SkillsController < ApplicationController
   # GET /skills/new
   def new
     @skill = Skill.new
-    @skill_categories = SkillCategory.all.pluck(:name,:id)
   end
 
   # GET /skills/1/edit
@@ -27,9 +27,8 @@ class SkillsController < ApplicationController
   def create
     
     @skill = Skill.new(skill_params)
-
     respond_to do |format|
-      if @skill.save        
+      if @skill.save
         format.html { redirect_to @skill, notice: 'Skill was successfully created.' }
         format.json { render :show, status: :created, location: @skill }
       else        
@@ -67,6 +66,10 @@ class SkillsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_skill
       @skill = Skill.find(params[:id])
+    end
+
+    def skill_categories
+      @skill_categories = SkillCategory.all.pluck(:name,:id)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
