@@ -20,6 +20,11 @@
        {prompt: 'Selecione uma area'}, {class: 'chosen-select'}) %>
   </div>
 
+  <div class="field">
+    <%= collection_select(:position, :specialization_id, Specialization.includes(:profile).all, 
+       :id, :profile_spec_name, 
+       {prompt: 'Selecione uma Especialização'}, {class: 'chosen-select'}) %>
+  </div>
   
   <div class="actions">
     <%= f.submit %>
