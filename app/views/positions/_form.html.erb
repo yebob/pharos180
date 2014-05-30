@@ -11,8 +11,18 @@
     </div>
   <% end %>
 
-    <div class="actions">
-      <%= f.text_field :name %>
-      <%= f.submit %>
-    </div>
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= collection_select(:position, :area_id, Area.all, :id, :name, 
+       {prompt: 'Selecione uma area'}, {class: 'chosen-select'}) %>
+  </div>
+
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+    
 <% end %>

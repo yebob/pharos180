@@ -1,5 +1,6 @@
 class PositionsController < ApplicationController
   before_action :set_position, only: [:show, :edit, :update, :destroy]
+  before_action :areas
 
   # GET /positions
   # GET /positions.json
@@ -66,6 +67,10 @@ class PositionsController < ApplicationController
     def set_position
       @position = Position.find(params[:id])
     end
+
+    def areas
+      @areas = Area.all.pluck(:name,:id)
+    end  
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def position_params
