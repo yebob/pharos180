@@ -5,6 +5,8 @@ class Specialization < ActiveRecord::Base
 	belongs_to :profile
 
 	def profile_spec_name
-		"#{profile.name} - #{name}"
+		spec_name = "#{profile.name} - " if profile
+
+		return "#{spec_name}#{name}"
 	end
 end
