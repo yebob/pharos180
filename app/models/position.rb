@@ -1,5 +1,5 @@
 class Position < ActiveRecord::Base
-  # such as developer, DBA, CIO
+  # such as developer jr., DBA, CIO
 
   belongs_to :area
   belongs_to :profile
