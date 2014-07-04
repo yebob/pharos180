@@ -1,44 +1,165 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Pharos180</title>
-  <%= stylesheet_link_tag    'application', media: 'all'%>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-	<nav class="navbar navbar-default" role="navigation">
-  		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">Pharos180</a>
-			</div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><%= link_to 'Skills', skills_path %></li>
-					<li><%= link_to 'Skill Categories', skill_categories_path %></li>
-					<li><%= link_to 'Positions', positions_path %></li>
-					<li><%= link_to 'Areas', areas_path %></li>					
-					<li><%= link_to 'Specializations', specializations_path %></li>
-					<li><%= link_to 'Profile', profiles_path %></li>
-				</ul>
-			</div>
-  		</div>
-  	</nav>
-  	<div class="container-fluid">
-  		<div class="row">
-  			<div class="col-md-4">
-  			</div>
-  			<div class="col-md-8">
-				<%= yield %>
-			</div>
-		</div>
-	</div>
-</div>
-</body>
+  <head>
+    <title>pHaRos 180&deg; - A competency evaluation manager</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta content='text/html;charset=utf-8' http-equiv='content-type'>
+    <meta content='pHaRos 180&deg; is a cloud-enabled Human Resources competency evaluation manager.' name='description'>
+
+    <%= stylesheet_link_tag    'application', media: 'all'%>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+
+    <!--[if lt IE 9]>
+      <script src="assets/html5shiv.js" type="text/javascript"></script>
+      <script src="assets/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <style>
+      .navbar-default{
+        background:#428bca;
+      }
+
+      .user-name{
+        color:#fff;
+      }
+
+      #footer{
+        padding-top:40px;
+      }
+
+      #footer .btn{
+        float:right;
+      }
+    </style>
+  </head>
+  <body class='contrast-blue fixed-header fixed-navigation'>
+    <header>
+      <nav class='navbar navbar-default' role="navigation">
+        <div class="navbar-header pull-left">
+          <a class='toggle-nav btn pull-left' href='#'>
+            <i class='icon-reorder'></i>
+          </a>
+          <a class='navbar-brand' href='index.html'>
+            <img width="117" height="18" class="logo" alt="pHaRos" src="/assets/logo2.png" />
+            <img width="21" height="21" class="logo-xs" alt="pHaRos" src="/assets/logo_xs.svg" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse pull-right">
+          <ul class='nav navbar-nav'>
+            <li class='dropdown light only-icon'>
+              <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                <i class='icon-cog'></i>
+              </a>
+            </li>
+            <li class='dropdown dark user-menu'>
+              <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                <img width="23" height="23" alt="Mila Kunis" src="assets/images/avatar.jpg" />
+                <span class='user-name'>Alexandre Nigri</span>
+                <b class='caret'></b>
+              </a>
+              <ul class='dropdown-menu'>
+                <li>
+                  <a href='user_profile.html'>
+                    <i class='icon-user'></i>
+                    Profile
+                  </a>
+                </li>
+                <li>
+                  <a href='user_profile.html'>
+                    <i class='icon-cog'></i>
+                    Settings
+                  </a>
+                </li>
+                <li class='divider'></li>
+                <li>
+                  <a href='sign_in.html'>
+                    <i class='icon-signout'></i>
+                    Sign out
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id='wrapper'>
+      <div class="row">
+        <nav class='main-nav-fixed col-md-3' id='main-nav'>
+          <div class='navigation'>
+            <ul class='nav nav-stacked'>
+              <li class=''>
+                <a href='evaluation-cycles.html'>
+                  <i class='icon-calendar'></i>
+                  <span>Ciclos de Avaliação</span>
+                </a>
+              </li>
+              <li class=''>
+                <a href="evaluations.html">
+                  <i class='icon-check'></i>
+                  <span>Avalia&ccedil;&otilde;es</span>
+                </a>
+              </li>
+              <li class=''>
+                <a href="goals.html">
+                  <i class='icon-bar-chart'></i>
+                  <span>Metas (P.D.I.)</span>
+                </a>
+              </li>
+              <li>
+              <li class=''>
+                <a href="evaluation-settings.html">
+                  <i class='icon-gears'></i>
+                  <span>Configura&ccedil;&atilde;o da Avalia&ccedil;&atilde;o</span>
+                </a>
+              </li>
+              <li class=''>
+                <a href="team-management.html">
+                  <i class='icon-group'></i>
+                  <span>Gest&atilde;o da Equipe</span>
+                </a>
+              </li>
+              <li>
+            </ul>
+          </div>
+        </nav>
+        <section id='content' class="col-md-9">
+          <%= yield %>
+
+          <!--
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1>
+                <i class='icon-calendar'></i>
+                <span>Ciclos de Avalia&ccedil;&atilde;o</span>
+              </h1>
+            </div>
+
+            <div class="page-content">
+              Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+              Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis.
+              Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+              Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+              Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+            </div>
+          </div>
+          -->
+
+        </section>
+      </div>
+
+      <footer id='footer' class="col-md-12">
+        <div class='footer-wrapper'>
+          <div class='row'>
+
+            <div class="col-md-6">&copy; Copyright 2014 Bionexo</div>
+            <div class='col-md-6'>
+              <a target="_blank" class="btn btn-link" href="https://github.com/Bionexo/pharos180">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
