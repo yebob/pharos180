@@ -1,0 +1,100 @@
+skills:
+  corporate:
+    - name: Foco no Resultado
+      description: >
+        Planejar, realizar e monitorar suas atividades,
+        com nível de produtividade e qualidade elevados, visando obter o melhor
+        resultado em sua área de atuação e agregar valor ao negócio da Bionexo.
+    - name: Inovação
+      description: >
+        Propor e desenvolver, proativamente, idéias e alternativas
+        úteis e aplicáveis, que trazem novas soluções ou aprimoram os produtos,
+        processos e/ou métodos de trabalho atuais, agregando valor aos
+        resultados da empresa.
+    - name: Relacionamento
+      description: >
+        Desenvolver relacionamento ético, duradouro e de qualidade com
+        os colegas de trabalho, clientes internos e externos e parceiros do negócio,
+        identificando, compreendendo, priorizando suas reais necessidades e propondo soluções,
+        demonstrando iniciativa, respeito, cooperação e comprometimento a fim de favorecer o alcance de resultados.
+    - name: Transparência
+      description: >
+        Sustentar-se em valores éticos e morais estabelecidos pela empresa,
+        gerando credibilidade e confiança por aqueles que fazem parte do seu convívio diário.
+    - name: Gestão de pessoas
+      description: >
+        Gerenciar pessoas, desenvolvendo-as, valorizando-as, agindo com justiça,
+        conciliando interesses e diferenças entre indivíduos e grupos e facilitando uma discussão ativa
+        para alcançar a solução, de forma a propiciar um ambiente de trabalho saudável e
+        o alcance dos objetivos da área e do negócio.
+    - name: Gestão do conhecimento
+      description: >
+        Promover um ambiente de aprendizado individual e coletivo de maneira interativa e contínua,
+        possibilitando a disseminação e o compartilhamento de conhecimentos pertinentes ao negócio,
+        bem como zelar pelo armazenamento adequado e organizado desse conhecimento.
+    - name: Visão estratégica
+      description: >
+        Compreender o impacto de suas ações nas atividades e resultados da empresa,
+        considerando os objetivos estratégicos, o contexto organizacional e sua interação com o mercado e a sociedade.
+        Gerenciar a implementação das estratégias, mantendo o foco na integração entre as áreas.
+    - name: Capacidade analítica
+      description: >
+        Captar, organizar, interpretar e analisar criticamente dados e informações,
+        entendendo as relações de causa e efeito, para subsidiar o processo de tomada de decisão.
+    - name: Capacidade de execução
+      description: >
+        Reunir e aplicar conhecimentos, formulando propostas viáveis,
+        expressando-as de forma lógica e articulada, a fim de garantir a execução das
+        atividades analisando a viabilidade, os recursos disponíveis e a urgência na concretização
+        das soluções atendendo aos padrões de qualidade, escopo e prazo definidos.
+    - name: Capacidade de planejamento
+      description: >
+        Planejar, priorizar e monitorar suas atividades no processo de trabalho,
+        otimizando recursos e prazos, garantindo o atendimento da demanda pré-estabelecida,
+        a fim de obter o melhor resultado em sua área de atuação.
+    - name: Comunicação
+      description: >
+        Saber ouvir e expressar idéias e informações de forma clara e inteligível,
+        tanto verbal como por escrito, construindo um raciocínio lógico, assegurando o entendimento de
+        todos em relação ao assunto tratado e respeitando a opinião dos outros.
+    - name: Comprometimento
+      description: >
+        Assumir, implementar e manter ações a fim de garantir o atingimento dos resultados
+        esperados pelos clientes internos, clientes externos e parceiros, comprometendo-se
+        inteiramente com o alcance dos objetivos da empresa.
+    - name: Foco na Qualidade
+      description: >
+        Manter a atenção na atividade que está sendo realizada e agir
+        com segurança para garantir a correta execução do seu trabalho dentro dos padrões
+        de qualidade definidos pela empresa, atuando de forma cuidadosa, com método e ordem,
+        a fim de evitar erros e retrabalhos e garantir o alcance dos resultados esperados.
+    - name: Autonomia
+      description: >
+        Agir de forma proativa, antecipando-se aos problemas, necessidades,
+        desafios e oportunidades de trabalho, independente de cobranças e orientações específicas.
+    - name: Foco no cliente
+      description: >
+        Encantar o cliente em cada oportunidade, compreendendo suas necessidades,
+        propondo alternativas e oferecendo soluções que agreguem valor e aumente seu nível de satisfação.
+    - name: Negociação
+      description: >
+        Negociar assuntos diversos, com clientes internos e externos,
+        fornecedores e parceiros, envolvendo conhecimentos de técnicas de negociação,
+        capacidade de persuasão e administração de conflitos, visando a obtenção de um
+        resultado satisfatório para as partes envolvidas, através de uma relação ganha-ganha.
+    - name: Organização
+      description: >
+        Organizar e monitorar as suas ações, estabelecendo uma sequência
+        lógica de atividades e trabalhando de maneira ordenada, a fim de permitir
+        a distribuição adequada do tempo e das tarefas, atendendo as responsabilidades
+        assumidas e mantendo o foco das ações.
+    - name: Trabalhar sob pressão
+      description: >
+        Manter desempenho e rendimento elevados quando pressionado ou
+        em situações críticas e adversas, reagindo com resiliência e serenidade sem
+        perder o foco nos princípios e valores da empresa.
+    - name: Trabalhar sob pressão
+      description: >
+        Compreender o negócio da empresa diante do contexto global e
+        participar da implementação das estratégias e projetos, integrando o seu
+        processo com as demais áreas da empresa.

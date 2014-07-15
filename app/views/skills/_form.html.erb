@@ -15,10 +15,16 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+
   <div class="field">
     <%= f.label :skill_category_id %><br>
-    <%= collection_select(:skill, :skill_category_id, SkillCategory.all, 
-      :id, :name, 
+    <%= collection_select(:skill, :skill_category_id, SkillCategory.all,
+      :id, :name,
       {prompt: 'Selecione um tipo de categoria'}, {class: 'chosen-select'}) %>
   </div>
   <div class="actions">
