@@ -5,96 +5,537 @@ skills:
         Planejar, realizar e monitorar suas atividades,
         com nível de produtividade e qualidade elevados, visando obter o melhor
         resultado em sua área de atuação e agregar valor ao negócio da Bionexo.
+      levels:
+        basic:
+          - Realiza atividades conforme orientação , prioridade e padrões estabelecidos, a fim de atingir os resultados planejados pela área.
+          - Trabalha com afinco e energia para obter bons níveis de rendimento no desenvolvimento das atividades.
+          - Segue orientações para eliminar os problemas/obstáculos que interferem nos resultados esperados.
+          - Demonstra disponibilidade para atender às solicitações da empresa.
+          - Contribui de forma proativa com a realização das atividades de outros profissionais de sua área de atuação.
+          - Age com rapidez frente a várias situações, seguindo orientação, evitando prejuízos na qualidade e no prazo de resposta das suas atividades.
+          - Se esforça para superar os resultados esperados pelo cliente interno ou externo.
+        medium:
+          - Realiza atividades de acordo com os padrões estabelecidos, a fim de atingir os resultados planejados pela área.
+          - Trabalha com afinco e energia para obter bons níveis de rendimento no desenvolvimento das atividades.
+          - Realiza atividades buscando o equilíbrio entre importância, qualidade e prazos das mesmas.
+          - Demonstra autonomia, atuando de forma independente dos superiores na resolução de problemas e questões rotineiras.
+          - Monitora seu plano de trabalho com revisões periódicas, visando minimizar problemas e/ou redirecionar ações.
+          - Identifica possíveis problemas antes mesmo deles surgirem e considera a sua resolução ou prevenção antes que se tornem graves.
+          - Se esforça para superar os resultados esperados pelo cliente interno ou externo.
+        advanced:
+          - Realiza atividades conforme padrões estabelecidos, a fim de atingir os resultados planejados pela empresa.
+          - Define prioridades, prazos, importância, qualidade e alocação de recursos das suas atividades e dos cargos inferiores.
+          - Avalia, seleciona e sugere para outros membros da equipe a melhor alternativa para eliminar os problemas/obstáculos que interferem nos resultados          esperados.
+          - Monitora seu plano de trabalho, e quando for o caso o da sua equipe, com revisões periódicas, visando minimizar problemas e/ou redirecionar ações.
+          - Age decisivamente em situações adversas, sem ter de esperar decisões vindas de outros, a fim de evitar prejuízos na suas atividades e no resultado da empresa.
+          - Resolve os problemas integralmente, de forma que os mesmos não sejam transferidos para outros profissionais.
+          - Está atenta aos riscos que podem impactar no resultado de suas atividades, da área ou da empresa e tem instrumentos para minimizá-los.
+          - Se esforça e estimula os colegas a superarem as expectativas dos resultados esperados pelo cliente interno ou externo.
+
     - name: Inovação
       description: >
         Propor e desenvolver, proativamente, idéias e alternativas
         úteis e aplicáveis, que trazem novas soluções ou aprimoram os produtos,
         processos e/ou métodos de trabalho atuais, agregando valor aos
         resultados da empresa.
+      levels:
+        basic:
+          - Busca informações sobre o mercado e processos relativos à sua área de atuação, mantendo-se atualizado.
+          - Sugere proativamente oportunidades de melhoria no seu processo de atuação, otimizando os recursos disponíveis, a fim de atingir os melhores resultados com maior rapidez.
+          - Sugere idéias ou propõe alternativas, objetivando melhorias e inovações em seu processo de atuação, agregando valor aos resultados.
+          - É capaz de colocar em prática as idéias sugeridas por outros ou as próprias, buscando apoio da equipe sempre que necessário.
+          - Compartilha idéias que são realistas e possíveis de serem implementadas.
+        medium:
+          - Acompanha as inovações do mercado e processos relativos à sua área de atuação, mantendo-se atualizado.
+          - Contribui para a melhoria dos processos e serviços da área, oferecendo sugestões e provendo feedback que agreguem valor à empresa.
+          - Age proativamente, apresentando soluções e sugerindo novos trabalhos, influenciando acontecimentos e antecipando fatos.
+          - É capaz de desenvolver idéias ou propor alternativas, objetivando melhorias e inovações em sua área de atuação e ao negócio da empresa, agregando valor aos resultados.
+          - Implementa as idéias sugeridas por outros ou as próprias.
+          - Participa de grupos de trabalho ou reuniões dentro de sua área de atuação para formulação e implantação de ações ou programas inovadores.
+        advanced:
+          - Identifica possíveis oportunidades de negócio, através de estudos de mercado e tendências, relacionamento com outras áreas ou outra forma de prospecção.
+          - Desenvolve e implementa melhorias a fim de minimizar problemas relacionados a sua área de atuação.
+          - Antecipa-se às demandas do futuro, formulando soluções inovadoras e gerando transformação.
+          - Estrutura e apresenta as soluções indicando recursos necessários para a viabilização das alternativas.
+          - Capta contribuições de outros profissionais e estimula a sua participação na identificação de alternativas, a fim de propor soluções que agreguem valo aos resultados.
+          - Participa de grupos de trabalho ou reuniões dentro ou fora de sua área de atuação para formulação e implantação de ações ou programas inovadores.
+          - Decide sobre alternativas e soluções apresentadas de forma ágil, ponderada e segura, analisando a oportunidade, viabilidade e urgência de decisão, mesmo em situações imprevisíveis e tensas.
+
     - name: Relacionamento
       description: >
         Desenvolver relacionamento ético, duradouro e de qualidade com
         os colegas de trabalho, clientes internos e externos e parceiros do negócio,
         identificando, compreendendo, priorizando suas reais necessidades e propondo soluções,
         demonstrando iniciativa, respeito, cooperação e comprometimento a fim de favorecer o alcance de resultados.
+      levels:
+        basic:
+          - Mostra disponibilidade para cooperar com os demais membros da equipe de trabalho.
+          - Estabelece relações interpessoais com os demais membros da equipe e clientes, e respeita as opiniões individuais, de forma a considerar e aceitar as sugestões mais efetivas.
+          - Coloca os objetivos da organização na frente de seus próprios objetivos.
+          - Transmite informação relevantes à sua equipe para tomada de decisão colaborativamente.
+          - Forma parcerias estáveis, baseadas em confiança, a fim de manter relacionamentos duradouros e de qualidade.
+        medium:
+          - Colabora com equipes internas e externas para cumprir os objetivos comuns.
+          - Participa de atividades multifuncionais para o alcance dos objetivos organizacionais.
+          - Estabelece relações interpessoais com os demais membros da equipe, clientes e parceiros, gerando confiança nos integrantes, e respeita as opiniões individuais, de forma a considerar e aceitar as sugestões mais efetivas.
+          - Providencia informação para outras áreas da organização para tomada de decisão colaborativamente.
+          - Forma parcerias estáveis, baseadas em confiança, a fim de manter relacionamentos duradouros e de qualidade.
+        advanced:
+          - Colabora com equipes internas e externas para cumprir os objetivos comuns e estimula a cooperação e interação entre todos.
+          - Participa de atividades multifuncionais para o alcance dos objetivos organizacionais.
+          - Constrói redes de comunicação e alianças com os profissionais da empresa, clientes e parceiros para suportar objetivos mútuos.
+          - Reúne informação e contatos relevantes para a empresa, incluindo contatos estratégicos, e os compartilha com os demais profissionais.
+          - Estimula o relacionamento, interação e cooperação entre a comunidade Bionexo.
+          - Coloca os objetivos da organização na frente de seus próprios objetivos.
+          - Providencia informação para outras áreas da organização para tomada de decisão colaborativamente.
+          - Forma parcerias estáveis, baseadas em confiança, a fim de manter relacionamentos duradouros e de qualidade e estimula que outros profissionais adotem essa postura.
+
     - name: Transparência
       description: >
         Sustentar-se em valores éticos e morais estabelecidos pela empresa,
         gerando credibilidade e confiança por aqueles que fazem parte do seu convívio diário.
+      levels:
+        basic:
+          - Pratica os princípios de conduta da empresa.
+          - Trata suas divergências diretamente com as pessoas, em caso de discordância ou desentendimento, contando com a ajuda do seu superior se houver necessidade.
+          - Possui coerência entre palavras e ações, de acordo com os valores da empresa.
+          - É cuidadoso no trato de informações confidenciais e importantes a que tem acesso.
+          - Apresenta postura ética no relacionamento com colegas e clientes e no desenvolvimento dos trabalhos.
+          - Reportar ou dividir com gestor (outras instâncias competentes) situações em que claramente haja algum desvio de conduta.
+        medium:
+          - Pratica os princípios de conduta da empresa e influencia positivamente as atitudes das pessoas ao seu redor.
+          - Trata suas divergências diretamente com as pessoas, em caso de discordância ou desentendimento.
+          - Possui coerência entre palavras e ações, de acordo com os valores da empresa.
+          - Assegura a confidencialidade, integridade e disponibilidade das informações sobre a empresa e seus colaboradores.
+          - Apresenta postura ética no relacionamento e atendimento aos clientes, parceiros, fornecedores e colegas e no desenvolvimento dos trabalhos.
+          - Reportar ou dividir com gestor (outras instâncias competentes) situações em que claramente haja algum desvio de conduta.
+        advanced:
+          - Pratica e dissemina os princípios da empresa, contribuindo para o comprometimento da equipe com a empresa.
+          - Trata suas divergências diretamente com as pessoas, em caso de discordância ou desentendimento, e estimula que outras pessoas hajam dessa maneira.
+          - Possui coerência entre palavras e ações, de acordo com os valores da empresa, e influencia as pessoas ao seu redor.
+          - Conquista respeito e confiança dos demais.
+          - Estabelece parâmetros para divulgação de informações, internas e externas, mantendo reserva nos assuntos confidenciais, preservando a imagem da área e da empresa.
+          - Pratica e orienta a equipe a possuir postura ética no relacionamento e atendimento aos clientes, parceiros, fornecedores e colegas e no desenvolvimento dos trabalhos.
+          - Reportar ou dividir com gestor (outras instâncias competentes) situações em que claramente haja algum desvio de conduta.
+
     - name: Gestão de pessoas
       description: >
         Gerenciar pessoas, desenvolvendo-as, valorizando-as, agindo com justiça,
         conciliando interesses e diferenças entre indivíduos e grupos e facilitando uma discussão ativa
         para alcançar a solução, de forma a propiciar um ambiente de trabalho saudável e
         o alcance dos objetivos da área e do negócio.
+      levels:
+        basic:
+          - Presta suporte à equipe na execução dos trabalhos, a fim de conquistar os resultados esperados de sua área.
+          - Sugere ações de capacitação compatíveis com as necessidades da área e interesses dos profissionais, alinhadas às diretrizes da empresa.
+          - Promove ações, na gestão dos processos de trabalho sob sua responsabilidade, que favoreçam a integração entre pessoas ou equipes.
+          - Fornece feedback à sua equipe quanto ao desenvolvimento pessoal e profissional de seus membros.
+          - Facilita e estimula a participação dos demais em reuniões e discussões de trabalho.
+          - É acessível, demonstra empatia, ouve atentamente a equipe e mostra-se sensível quanto às preocupações de todos.
+        medium:
+          - Direciona a equipe para execução das atividades, com um firme entendimento de qual direção deve ser tomada, negociando prioridades da área, provendo recursos e delegando tarefas às pessoas adequadas, a fim de atingir os resultados esperados.
+          - Acompanha o desenvolvimento dos profissionais de sua equipe, criando oportunidades para a evolução no desempenho e alcance dos objetivos de carreira, conforme processos e políticas estabelecidos pela empresa.
+          - Implementa e monitora ações que contribuam para a manutenção/melhoria do clima organizacional da área.
+          - Orienta e fornece feedback à sua equipe quanto à capacitação, plano de desenvolvimento e metas de realização, suportando decisões de carreira alinhadas às necessidades da empresa.
+          - Integra diversas visões da sua equipe nas decisões tomadas.
+          - Identifica e administra os conflitos interpessoais promovendo um ambiente favorável às relações.
+        advanced:
+          - Gerencia as áreas sob sua responsabilidade e cria ambiente favorável para aceitação e engajamento nos processos de mudança.
+          - Envolve-se na identificação e preparação de sucessores para as posições-chave de sua área, de forma a suportar a estratégia da empresa.
+          - Monitora o clima organizacional da Diretoria/ Unidade, buscando manter um ambiente de cooperação e comprometimento, prezando por uma convivência harmônica entre os profissionais.
+          - Avalia e orienta sua equipe de maneira coerente e justa suportado por seu envolvimento e interação com as equipes e outras áreas, de forma a conciliar os anseios pessoais dos profissionais com as estratégias da empresa.
+          - Promove a integração entre as áreas sob sua responsabilidade, nivelando informações, compartilhando decisões e experiências, favorecendo o relacionamento, a comunicação e o clima organizacional.
+          - Concilia interesses e administra conflitos, estimulando o diálogo, visando a manutenção de um ambiente de trabalho saudável e a obtenção de resultados satisfatórios para as partes envolvidas.
+
     - name: Gestão do conhecimento
       description: >
         Promover um ambiente de aprendizado individual e coletivo de maneira interativa e contínua,
         possibilitando a disseminação e o compartilhamento de conhecimentos pertinentes ao negócio,
         bem como zelar pelo armazenamento adequado e organizado desse conhecimento.
+      levels:
+        basic:
+          - Dissemina dados e informações relevantes para o funcionamento de um processo e/ou parte de um processo.
+          - Transmite conhecimentos de forma adequada para a sua equipe, esforçando-se para disseminá-los sempre que existir a oportunidade.
+          - Organiza e mantém um banco de informação/material técnico de sua área de atuação de fácil acesso a todos os profissionais que necessitem acessá-lo.
+          - Zela pela proteção e segurança das informações da área que exigem maior confidencialidade.
+          - Promove reuniões de trabalho e sugere temas relevantes para a discussão da equipe, visando ao compartilhamento de conhecimentos técnicos.
+        medium:
+          - Instrui e aconselha sua equipe de trabalho na busca das melhores fontes de conhecimento, selecionando e disseminando informações relevantes como artigos, matérias, livros, entre outros.
+          - Dissemina dados e informações relevantes para a sua equipe e outras áreas interessadas, de forma clara e acessível, contemplando conceitos, metodologias e procedimentos importantes para o funcionamento de um processo ou parte de um processo.
+          - Zela pela proteção e segurança das informações da área que exigem maior confidencialidade.
+          - Estrutura e armazena, por meio de ferramentas adequadas, os conteúdos e dados disponíveis, visando reter o capital intelectual na empresa.
+          - Promove reuniões de trabalho e sugere temas relevantes para a discussão da equipe, visando ao compartilhamento de conhecimentos técnicos e a uniformização das informações.
+        advanced:
+          - Transmite conceitos técnicos, metodologias e demais formas de conhecimentos de forma clara e acessível, atuando muitas vezes como multiplicador de conhecimento.
+          - Multiplica conhecimentos para sua equipe, fornecedores e parceiros sobre as políticas, valores, metas, objetivos e diretrizes estratégicas da área e da empresa.
+          - Contribui para a criação de um ambiente de gestão de conhecimentos na empresa, definindo as ferramentas e os processos para compartilhamento e armazenamento de informações e experiências da empresa.
+          - Planeja intervenções enriquecedoras selecionando as melhores fontes de informações, prospectando assuntos de relevância e divulgando-os adequadamente.
+          - Estabelece os níveis de confidencialidade das informações de negócio e zela pela proteção e segurança desse conhecimento.
+          - Promove reuniões de trabalho e sugere temas relevantes para a discussão da equipe, visando ao compartilhamento de conhecimentos técnicos.
+
     - name: Visão estratégica
       description: >
         Compreender o impacto de suas ações nas atividades e resultados da empresa,
         considerando os objetivos estratégicos, o contexto organizacional e sua interação com o mercado e a sociedade.
         Gerenciar a implementação das estratégias, mantendo o foco na integração entre as áreas.
+      levels:
+        basic:
+          - Demonstra compreender a interação e consequências de uma ação em outra e no todo.
+          - É atento à situação atual do negócio e é capaz de identificar oportunidades para melhorias.
+          - Propõe ações para integração dos processos de sua área com outras, visando elevar a eficiência dos processos e qualidade dos serviços.
+          - Participa e contribui na elaboração do plano da área, demonstrando visão abrangente de seus processos e interfaces.
+          - Consolida e compartilha informações relevantes referentes a sua área de atuação, que subsidiam decisões empresariais.
+          - Compromete-se com as decisões estratégicas e com as metas estabelecidas para a sua área.
+        medium:
+          - Identifica e acompanha a evolução de ações e atitudes que podem influenciar em um ou mais processos da empresa, atuando sobre elas de forma a minimizar impactos negativos e potencializar os positivos.
+          - Analisa variáveis internas e externas, relativas ao negócio, para integrar informações que impactam nos processos sob sua responsabilidade.
+          - Define ações que possibilitam a implementação das estratégias da empresa, identificando necessidades de recursos e impactos nas áreas /projetos sob sua responsabilidade.
+          - Define os planos das áreas sob sua responsabilidade e contribui para o desenvolvimento do planejamento da diretoria, demonstrando visão abrangente de seus processos e interfaces.
+          - Explora a interface dos diversos processos de trabalho no âmbito de sua atuação, com foco na superação dos resultados esperados.
+          - Atua de acordo com diretrizes estratégicas, requerendo baixo nível de envolvimento de superiores na condução dos projetos.
+        advanced:
+          - Demonstra vasto conhecimento e perspectiva quanto aos impactos e relações entre as áreas da empresa/projetos e o mercado e adapta-se corretamente às tendências e conseqüências futuras.
+          - Identifica e analisa as principais tendências que afetam sua área de atuação e o negócio da empresa, e propõe, quando necessário, alternativas para minimizar os riscos e potencializar as oportunidades.
+          - Define e aprova ações que possibilitam a implementação das estratégias da empresa, identificando necessidades de recursos e impactos nas áreas /projetos sob sua responsabilidade.
+          - Desenvolve estratégias de longo prazo consistentes com o princípio e direcionamento da empresa.
+          - Atua de forma integrada com outras áreas da empresa e com instituições diversas (parceiros, fornecedores, etc), fornecendo insumos com base em seus conhecimentos e experiências.
+          - Traduz estratégias do negócio em prioridades claras e específicas.
+
     - name: Capacidade analítica
       description: >
         Captar, organizar, interpretar e analisar criticamente dados e informações,
         entendendo as relações de causa e efeito, para subsidiar o processo de tomada de decisão.
+      levels:
+        basic:
+          - Faz perguntas para recolher informações pertinentes, confirmando precisão e relevância.
+          - Demonstra visão crítica ao se deparar com documentos e informações.
+          - Interpreta minuciosamente os dados e busca outras fontes de informações sempre que necessário.
+          - Analisa dados e transforma-os em informações que possam ser compreendidas pelos demais da equipe.
+          - Identifica aspectos que possam influenciar no desempenho da área e sugere ações para que os impactos sejam minimizados ou eliminados.
+        medium:
+          - Demonstra postura questionadora em relação a informações, fatos e novas proposições, a fim de dar suporte à tomada de decisões.
+          - Realiza análise de dados de forma detalhada, gerando informações relevantes para a tomada das decisões mais adequadas à área de atuação.
+          - Formula avaliações corretas e ponderadas, segundo diretrizes e valores estabelecidos pela empresa.
+          - Propõe ações através de análise minuciosa e abrangente dos fatos e interpretação de questões implícitas.
+          - Busca informações que possam influir nos projetos, processos ou ações em que está envolvido e propõe ações para que os impactos sejam minimizados ou eliminados.
+        advanced:
+          - Apresenta visão questionadora e conclusiva de informações, fatos e novas proposições, agregando valor e prestando suporte à tomada de decisão.
+          - Incentiva e apóia o exercício da análise crítica e abrangente da realidade, por parte de seus colegas de equipe.
+          - Examina as informações dentro de um contexto amplo, chegando a conclusões detalhadas sobre o assunto, aprofundando-se em outras questões relacionadas sempre que necessário.
+          - Antecipa ações e recomenda decisões, vislumbrando ameaças e/ou oportunidades antes que as mesmas tornem-se claras, demonstrando capacidade analítica.
+          - Busca informações que auxiliem no entendimento mais amplo e aprofundado das situações, com o objetivo de realizar uma análise abrangente dos cenários.
+          - Multiplica conhecimentos sobre metodologias de análise de contexto.
+
     - name: Capacidade de execução
       description: >
         Reunir e aplicar conhecimentos, formulando propostas viáveis,
         expressando-as de forma lógica e articulada, a fim de garantir a execução das
         atividades analisando a viabilidade, os recursos disponíveis e a urgência na concretização
         das soluções atendendo aos padrões de qualidade, escopo e prazo definidos.
+      levels:
+        basic:
+          - Busca o cumprimento de prazos com o nível esperado de qualidade e custos das suas ações.
+          - Demonstra disponibilidade para atender às solicitações da empresa.
+          - Contribui, sempre que solicitado, para o desenvolvimento de proposições técnicas relacionadas à sua área de conhecimento.
+          - Busca soluções para os problemas e necessidades identificados contando com o apoio de profissionais mais experientes sempre que necessário.
+          - Executa suas atividades de forma planejada, mantendo o foco na finalização.
+        medium:
+          - Avalia a efetividade das ações sob sua responsabilidade, buscando o cumprimento de prazos com o nível esperado de qualidade e custos.
+          - Age proativamente às demandas relativas às suas atividades, independentemente de solicitações.
+          - Demonstra agilidade no atendimento às solicitações, buscando sua satisfação plena, dentro da qualidade e do prazo estipulados.
+          - Contribui para o desenvolvimento de proposições técnicas relacionadas à sua área de conhecimento, através do entendimento das expectativas dos clientes internos e externos, conforme padrão de qualidade requerido.
+          - Identifica possíveis problemas antes mesmo deles surgirem e considera a sua resolução ou prevenção antes que se tornem graves.
+          - Possui comportamentos específicos de execução, prontidão, eficácia e finalização de tarefas ou projetos iniciados, até sua conclusão.
+        advanced:
+          - Prioriza atividades ao longo do desenvolvimento de suas ações, buscando um equilíbrio entre qualidade, prazos e recursos definidos.
+          - Age decisivamente em tempo de crise sem ter de esperar decisões vindas de outros.
+          - Responde às solicitações com o devido senso de urgência requerido pela questão, conforme análise da gravidade (impacto) e urgência (prazo).
+          - Soluciona os problemas integralmente, de forma que os mesmos não sejam transferidos para outros profissionais, através da utilização de conhecimentos no seu campo de atuação.
+          - Transforma idéias em soluções com resultados concretos, formulando e articulando alianças e parcerias que contribuem para a concretização do resultado projetado.
+          - Elabora planos de ação de sua área, em conjunto com os demais integrantes da equipe, visando a sustentação de processos e realização de atividades e projetos.
+          - Integra esforços de pessoas e equipe de trabalho, visando o cumprimento dos objetivos propostos.
+
     - name: Capacidade de planejamento
       description: >
         Planejar, priorizar e monitorar suas atividades no processo de trabalho,
         otimizando recursos e prazos, garantindo o atendimento da demanda pré-estabelecida,
         a fim de obter o melhor resultado em sua área de atuação.
+      levels:
+        basic:
+          - Acompanha seu plano de trabalho, com o apoio de seu superior imediato, visando minimizar problemas ou redirecionar ações.
+          - Contribui para o planejamento do seu trabalho, mantendo visão de tempo e interface com demais trabalhos.
+          - Suporta a equipe na elaboração de planos e programas, levantando informações e executando atividades que influenciem nas definições do que fazer, como fazer, recursos necessários, prazos, critérios de acompanhamento, controle e ações contingenciais.
+          - Identifica e sugere alternativas para eliminar os problemas e obstáculos que interferem nas ações planejadas pela área.
+          - Contribui periodicamente para a revisão do seu plano de trabalho com o objetivo de executar as atividades pré-determinadas.
+        medium:
+          - Monitora seu plano de trabalho com revisões periódicas, visando minimizar problemas e/ou redirecionar ações.
+          - Planeja e organiza o trabalho que executa estabelecendo cronogramas e monitorando o cumprimento dos prazos e das etapas previstas.
+          - Contribui para a elaboração dos planos e programas, definindo o que fazer, como fazer, recursos necessários, prazos, critérios de acompanhamento, controle e ações contingenciais.
+          - Identifica, avalia e seleciona a melhor alternativa para eliminar os problemas e obstáculos que interferem nas ações planejadas pela área.
+          - Levanta e aponta para a equipe informações para viabilizar o monitoramento e gerar insumos para reajustes no planejamento das atividades da área.
+        advanced:
+          - Acompanha o planejamento de sua área e de suas atividades, observando aspectos como orçamento, cronogramas e indicadores de desempenho e metas específicas.
+          - Participa do planejamento da área, com revisões periódicas para minimizar problemas ou redirecionar ações, visando atingir metas específicas.
+          - Planeja e organiza o trabalho que executa, estabelecendo metas, cronogramas e monitorando o cumprimento das etapas previstas e objetivos estabelecidos.
+          - Determina, em função dos objetivos estabelecidos, planos e programas, definindo o que fazer, como fazer, recursos necessários, prazos, critérios de acompanhamento, controle e ações contingenciais.
+          - Revisa periodicamente o seu plano de trabalho para minimizar problemas e/ou redirecionar ações.
+          - Apóia a equipe no planejamento, monitoramento e revisão de suas atividades.
+          - Sugere para a equipe ações para viabilizar o monitoramento e gerar insumos para reajustes no planejamento da área.
+
     - name: Comunicação
       description: >
         Saber ouvir e expressar idéias e informações de forma clara e inteligível,
         tanto verbal como por escrito, construindo um raciocínio lógico, assegurando o entendimento de
         todos em relação ao assunto tratado e respeitando a opinião dos outros.
+      levels:
+        basic:
+          - Age apropriadamente em relação ao ponto de vista dos outros.
+          - Sabe o momento e a forma adequada de ouvir e expressar a sua opinião nos diversos momentos de interação com outros profissionais.
+          - Expressa-se com clareza e objetividade com todos os níveis profissionais que se relaciona.
+          - Compartilha assuntos e informações importantes e essenciais com a sua equipe de trabalho e outros profissionais.
+          - Demonstra flexibilidade ao se comunicar, aceitando críticas e opiniões diferentes das suas.
+        medium:
+          - Ouve a opinião dos outros, respeitando pontos de divergência, contribuindo para a convergência de idéias.
+          - Fornece informações com clareza e objetividade, demonstrando fluência no discurso, de forma a facilitar e clarificar o entendimento dos assuntos.
+          - Demonstra habilidade em articular pensamentos e palavras, no momento adequado, construindo um raciocínio lógico e claro.
+          - Transmite à equipe, com clareza e em tempo hábil, informações que afetam a mesma ou o resultado da área.
+          - Mantém-se aberto a receber informações, opiniões e feedbacks de outras áreas/pessoas que apóiem seu desenvolvimento e o alcance dos objetivos da empresa.
+        advanced:
+          - Ouve as pessoas com presteza, filtrando e canalizando as informações recebidas para soluções ou melhorias dos eventos narrados.
+          - Envolve-se ativamente nas discussões, comunicando-se com clareza e objetividade, demonstrando atenção sobre o que os outros estão falando.
+          - Estrutura sua comunicação com encadeamento lógico e sequencial, verificando a compreensão dos assuntos tratados por parte dos receptores.
+          - Compartilha idéias, informações e conhecimentos de maneira construtiva com os demais, demonstrando iniciativa, respeito, cooperação e comprometimento, favorecendo o alcance dos resultados.
+          - Mantém os canais de comunicação abertos tanto entre os integrantes da equipe como com outras áreas, incentivando trocas de informações e experiências.
+        excellence:
+          - Seleciona e transmite, com clareza, as informações e conhecimentos relevantes para o desenvolvimento de sua equipe.
+          - Comunica, no momento adequado, à sua equipe as diretrizes estratégicas que impactam sua área de atuação e à sua liderança os resultados alcançados.
+          - Apresenta informações com clareza, precisão e segurança em reuniões e outros fóruns de decisão.
+          - Define e implementa as estratégias de comunicação da área sob sua responsabilidade, alinhando-as à comunicação corporativa.
+          - Realiza ações efetivas de comunicação dirigidas à sua equipe, compartilhando planos, ações e resultados relativos à área sob sua responsabilidade, visando ao nivelamento de informações e/ou comprometimento com as propostas.
+          - Evita ruídos de comunicação na sua equipe e, sempre que possível, entre outros profissionais da empresa.
+
     - name: Comprometimento
       description: >
         Assumir, implementar e manter ações a fim de garantir o atingimento dos resultados
         esperados pelos clientes internos, clientes externos e parceiros, comprometendo-se
         inteiramente com o alcance dos objetivos da empresa.
+      levels:
+        basic:
+          - Apresenta-se sempre disponível para atender as demandas que lhe são colocadas pela empresa, mesmo que estas não se relacionem de forma direta com sua área de trabalho.
+          - Zela pelos trabalhos e objetivos que lhe são confiados, de forma a não comprometer as atividades da área.
+          - Segue os processos e normas da empresa, visando contribuir para o alcance dos objetivos organizacionais.
+          - Finaliza as atividades que inicia, mantendo os padrões de prazo e qualidade estabelecidos, contando com a ajuda de seu superior imediato sempre que necessário.
+          - Trabalha com afinco e energia para obter bons níveis de rendimento no desenvolvimento das atividades.
+        medium:
+          - Apresenta-se sempre disponível para atender as demandas que lhe são colocadas pela empresa, mesmo que estas não se relacionem de forma direta com sua área de trabalho.
+          - Assume, zela e responde pelos trabalhos e objetivos que lhe são confiados, de forma a não comprometer as atividades da área.
+          - Atua com respeito em relação aos processos e normas da empresa, demonstrando compromisso com o cliente interno e externo, visando contribuir para o alcance dos objetivos organizacionais.
+          - Cumpre com suas responsabilidades e compromissos assumidos, buscando atingir objetivos e resultados propostos.
+          - Trabalha com afinco e energia para obter bons níveis de rendimento no desenvolvimento das atividades, dentro dos prazos estimados e qualidade esperada.
+          - Nas ações emergenciais e que oferecem obstáculos, se envolve com dedicação e agilidade, buscando a realização do trabalho da melhor maneira possível.
+        advanced:
+          - Apresenta-se sempre disponível para atender as demandas que lhe são colocadas pela empresa, mesmo que estas não se relacionem de forma direta com sua área de trabalho.
+          - Assume, zela e responde pelos trabalhos e objetivos que lhe são confiados, de forma a não comprometer as atividades da área e da empresa como um todo.
+          - Segue e dissemina aos membros da equipe os processos e normas da empresa, visando contribuir para o alcance dos objetivos organizacionais.
+          - Empreende esforços na busca do alcance dos resultados estabelecidos e apóia outros membros da equipe.
+          - Trabalha com afinco e energia para obter bons níveis de rendimento no desenvolvimento das atividades, dentro dos prazos estimados e qualidade esperada.
+          - Nas ações emergenciais e que oferecem obstáculos, se envolve com dedicação e agilidade, garantindo a realização do trabalho.
+
     - name: Foco na Qualidade
       description: >
         Manter a atenção na atividade que está sendo realizada e agir
         com segurança para garantir a correta execução do seu trabalho dentro dos padrões
         de qualidade definidos pela empresa, atuando de forma cuidadosa, com método e ordem,
         a fim de evitar erros e retrabalhos e garantir o alcance dos resultados esperados.
+      levels:
+        basic:
+          - Executa as rotinas de trabalho, distribuindo-as ao longo do dia, para assegurar a realização das mesmas, buscando ajuda sempre que necessário.
+          - Executa demandas, conforme orientação e prioridades definidas, atendendo a qualidade especificada.
+          - Mantém a atenção focada em suas atividades, evitando distrações ou desvios de atenção que possam culminar em erros no processo.
+          - Revisa seus trabalhos, com o apoio e orientação do superior direto, visando identificar, corrigir e eliminar erros.
+          - Demonstra atenção aos detalhes da execução dos seus trabalhos, gerando o menor nível possível de retrabalho e erro por falta de atenção.
+          - Demonstra entender de forma precisa, as orientações transmitidas para execução das atividades sob sua responsabilidade.
+        medium:
+          - Realiza suas atividades conforme padrão estabelecido, sem perder o foco na execução e produtividade do trabalho, a fim de atingir os resultados planejados pela área.
+          - Executa suas atividades de maneira detalhada e cuidadosa, mantendo a concentração nas atividades e evitando retrabalho e erros.
+          - Revisa seus trabalhos, visando identificar, corrigir e eliminar erros.
+          - Mantém a atenção focada em suas atividades, evitando distrações ou desvios de atenção que possam culminar em erros no processo.
+          - Capta detalhes que poderiam influenciar negativamente o resultado de sua atividades e sugere ações para que estes impactos sejam minimizados.
+        advanced:
+          - Realiza suas atividades conforme padrão estabelecido e dá apoio e orientação aos outros membros da equipe, a fim de atingir os resultados planejados pela área.
+          - Revisa seus trabalhos e, se necessário, o dos colegas, visando identificar e corrigir erros.
+          - Sugere melhorias que possam contribuir na execução das suas atividades e da equipe.
+          - Mantém-se focado nas atividades que estão sendo realizadas e age com segurança para corrigir possíveis erros na execução do seu trabalho e dos colegas.
+          - Realiza análises atentas, capta detalhes que poderiam influenciar negativamente o resultado das atividades da área e direciona ações para que estes impactos sejam minimizados.
+
     - name: Autonomia
       description: >
         Agir de forma proativa, antecipando-se aos problemas, necessidades,
         desafios e oportunidades de trabalho, independente de cobranças e orientações específicas.
+      levels:
+        basic:
+          - Comunica dificuldades encontradas, necessidades e oportunidades de trabalho.
+          - Posiciona-se de forma positiva e dinâmica, encarando os obstáculos como desafios e oportunidades.
+          - Inicia o trabalho por conta própria, antecipando-se aos problemas.
+          - Identifica e aponta riscos relacionados às suas atividades.
+          - Demonstra interesse, boa vontade e não tem receio de assumir novas responsabilidades.
+        medium:
+          - Encara obstáculos como desafios e oportunidades, sendo persistente e tendo atitudes positivas e incentivadoras para o alcance dos objetivos.
+          - Demonstra interesse, boa vontade e não tem receio de assumir novas responsabilidades.
+          - Age com autonomia em relação aos pares e superiores hierárquicos para implantação de soluções e melhorias na sua área de atuação.
+          - Identifica e aponta riscos relacionados às suas atividades, propondo ações para potencializar as soluções.
+          - Resolve os problemas integralmente, de forma que os mesmos não sejam transferidos para outros profissionais.
+          - Inicia o trabalho por conta própria, antecipa-se aos problemas e influencia o curso dos acontecimentos.
+        advanced:
+          - Decide sobre as alternativas e soluções apresentadas de forma ágil, ponderada e segura, analisando a oportunidade, viabilidade e urgência de decisão, mesmo em situações imprevisíveis e tensas.
+          - Assume desafios de forma proativa, analisando oportunidades e ameaças para solucionar questões não planejadas na sua área de atuação.
+          - Demonstra autonomia, atuando com mínima interferências dos superiores na resolução de problemas e questões rotineiras em sua área de atuação.
+          - Identifica e atua sobre os riscos relacionados às atividades da área, propondo ações para potencializar as soluções.
+          - Identifica e resolve os problemas integralmente, de forma que os mesmos não sejam transferidos para outros profissionais.
+          - Contribui de forma proativa com a realização das atividades de outros profissionais de sua área de atuação.
+
     - name: Foco no cliente
       description: >
         Encantar o cliente em cada oportunidade, compreendendo suas necessidades,
         propondo alternativas e oferecendo soluções que agreguem valor e aumente seu nível de satisfação.
+      levels:
+        basic:
+          - Oferece atendimento prestativo ao cliente, mesmo que não seja o responsável por esse atendimento, orientando-o para uma solução ou encaminhando para área competente.
+          - Atende aos clientes com empatia, promovendo ações que atendam suas reais necessidades.
+          - Apóia na identificação das reais necessidades e expectativas dos clientes, comprometendo-se com a execução das soluções.
+          - Busca obter conhecimento sobre as necessidades reais do cliente.
+          - Cumpre priorização estabelecida para atender às necessidades dos clientes.
+          - Atende às solicitações dos clientes internos, conforme qualidade requerida.
+        medium:
+          - Apresenta propostas de soluções ao cliente, antes mesmo que seja solicitado.
+          - Atende aos clientes com educação, cortesia e prontidão, no menor prazo possível.
+          - Contribui com a definição dos níveis de qualidade das entregas, prazos e controles relacionados às suas atividades na sua área de atuação, a fim de atender às expectativas do cliente.
+          - Demonstra conhecimento sobre as necessidades reais do cliente, por meio da busca permanente de informações.
+          - Entende e prioriza as necessidades e exigências dos clientes, cumprindo os compromissos, desenvolvendo ações para a satisfação, eliminando barreiras e ineficiência.
+          - Propõe melhoria nos processos em que atua, buscando sempre obter os melhores resultados e atender às necessidades dos clientes.
+          - Foca sua atenção na produtividade, na resposta e no cumprimento dos compromissos com seus clientes com qualidade.
+        advanced:
+          - Propõe e desenvolve soluções que antecipam as necessidades e solicitações de clientes.
+          - Atende aos clientes com educação, cortesia e prontidão, de forma rápida e eficiente, por meio de soluções efetivas disponíveis ou customizadas.
+          - Defini junto aos clientes, as responsabilidades, níveis de qualidade, prazos e controles para a execução dos serviços de ambas as partes.
+          - Busca constantemente informações sobre melhores práticas de trabalho, em sua área de atuação e necessidades dos clientes.
+          - Conhece o planejamento estratégico e operacional do cliente, pautando sua atuação para o atingimento das necessidades e expectativas do cliente.
+          - Estabelece a priorização das atividades, conforme necessidades dos clientes, estabelecendo uma escala de importância e dedicando esforços nas atividades mais urgentes, desenvolvendo ações para o aumento da satisfação e eliminação de barreiras e ineficiência.
+          - É reconhecido pelos seus clientes pela qualidade dos serviços prestados.
+
     - name: Negociação
       description: >
         Negociar assuntos diversos, com clientes internos e externos,
         fornecedores e parceiros, envolvendo conhecimentos de técnicas de negociação,
         capacidade de persuasão e administração de conflitos, visando a obtenção de um
         resultado satisfatório para as partes envolvidas, através de uma relação ganha-ganha.
+      levels:
+        basic:
+          - Apóia a negociação de assuntos da sua área de atuação com clientes internos e externos, a equipe de trabalho e fornecedores ou parceiros, buscando equilíbrio dos interesses entre as partes envolvidas.
+          - Busca e aplica conhecimentos em técnicas de negociação, a fim de obter suporte às suas idéias ou soluções.
+          - Prepara-se adequadamente para negociações, coletando informações que possam auxiliar a argumentação e definição de alternativas e soluções.
+          - Altera sua opinião e conduta quando necessário, de acordo com diretrizes estratégicas da empresa.
+          - Demonstra receptividade a diferentes abordagens, tem postura flexível em situações de negociação e adequa-se a fim de contornar possíveis obstáculos impostos pela outra parte.
+        medium:
+          - Identifica os principais problemas de uma situação em sua área de atuação e minimiza conflitos ou resistências de maneira eficaz, satisfazendo as partes envolvidas.
+          - Aplica seus conhecimentos em técnicas de negociação e seu poder de argumentação e convencimento na obtenção de resultados positivos.
+          - Prepara-se cuidadosamente para apresentar argumentos, baseando-se em fatos e dados e adequando a abordagem ao público a fim de obter a melhor relação custo-benefício para o negócio ou para o cliente.
+          - Apresenta comportamento condizente com os princípios e diretrizes estratégicos relativos à negociação definidos pela empresa.
+          - Propõe alternativas pertinentes, obtendo resultados positivos em situações difíceis e conflitivas.
+        advanced:
+          - Multiplica conhecimentos e orienta o exercício de habilidades e de posturas de negociação com base no princípio do ganha/ganha.
+          - Estabelece, mantém e estimula a formação de redes de relacionamento efetivas a fim de facilitar o alcance dos resultados esperados na negociação.
+          - Demonstra habilidade de persuasão e influência sobre outros, a fim de obter suporte às suas idéias ou soluções.
+          - Prepara-se para negociações coletando informações, utilizando fatos e gráficos, estabelecendo contatos e identificando alternativas e respectivas conseqüências a fim de buscar a melhor relação custo-benefício para o negócio ou para o cliente.
+          - Avalia e propõe melhorias nas diretrizes e estratégias de negociação de sua área e da empresa.
+          - Articula-se visando identificar potenciais situações de conflitos, ameaças e problemas no ambiente corporativo a fim de preveni-los.
+          - Presta suporte às negociações estratégicas apresentando proposições e avaliando conseqüências no que se refere à sua área de atuação.
+
     - name: Organização
       description: >
         Organizar e monitorar as suas ações, estabelecendo uma sequência
         lógica de atividades e trabalhando de maneira ordenada, a fim de permitir
         a distribuição adequada do tempo e das tarefas, atendendo as responsabilidades
         assumidas e mantendo o foco das ações.
+      levels:
+        basic:
+          - Administra o tempo mantendo o foco nas ações previamente planejadas, visando o cumprimento dos objetivos estabelecidos.
+          - Comunica ao seu superior os resultados alcançados e as dificuldades encontradas nos trabalhos que possam impactar nos prazos e/ou qualidade acordados.
+          - Cumpre o planejamento de suas atividades, visando atingir os resultados dentro dos prazos estabelecidos e qualidade esperada.
+          - Acompanha o avanço de suas atividades, com a orientação e apoio de seu superior imediato, confrontando com os prazos estabelecidos para a realização das mesmas.
+          - Mantém atualizado e em ordem o material com que trabalha, facilitando o acesso para si e para os demais colegas de trabalho.
+        medium:
+          - Administra o tempo que tem disponível de forma adequada, reduzindo ou eliminando atrasos na execução das suas atividades.
+          - Executa a tarefa no menor tempo possível, dentro dos padrões e processos pré-estabelecidos.
+          - Planeja suas atividades, estabelecendo prioridades em função de atingir os resultados dentro dos prazos estabelecidos e qualidade esperada.
+          - Monitora o avanço de suas atividades, reporta à liderança aspectos que possam impedir a conclusão das atividades no prazo e sugere ações para reverter a situação.
+          - Trabalha com método e ordem, objetivando facilitar a execução das tarefas.
+          - Mantém atualizado e em ordem o material com que trabalha, facilitando o acesso para si e para os demais colegas de trabalho.
+        advanced:
+          - Administra o tempo adequadamente, desenvolvendo planejamentos viáveis e definindo ações prioritárias.
+          - Entrega os trabalhos sob sua responsabilidade, dentro dos padrões de qualidade e prazos estipulados.
+          - Elabora planos de trabalho e projetos controlando suas etapas e antecipando-se a possíveis transtornos.
+          - Reporta à liderança aspectos que possam impedir a conclusão das atividades no prazo, e sugere ações para reverter à situação, incluindo apoio aos outros membros da equipe.
+          - Organiza, planeja e monitora as suas atividades, através de controles periódicos e cronogramas pré-estabelecidos.
+          - Trabalha com método e ordem, objetivando facilitar a execução das tarefas.
+          - Mantém atualizado e em ordem o material com que trabalha, facilitando o acesso para si e para os demais colegas de trabalho, e apóia outros membros da equipe a manterem essa organização
+
     - name: Trabalhar sob pressão
       description: >
         Manter desempenho e rendimento elevados quando pressionado ou
         em situações críticas e adversas, reagindo com resiliência e serenidade sem
         perder o foco nos princípios e valores da empresa.
-    - name: Trabalhar sob pressão
+      levels:
+        basic:
+          - Adapta-se a novas situações de trabalho, mantendo o foco na realização de suas atividades.
+          - Conserva a objetividade e serenidade em momentos de stress.
+          - Ao confrontar-se com situações críticas, busca apoio e mantém a liderança informada.
+          - É capaz de cooperar em processos de mudança.
+          - Demonstra apoio e colaboração a colegas em condições desfavoráveis de pressão, a fim de contribuir para a manutenção de um elevado nível de desempenho da equipe.
+          - Diante de uma adversidade, reage de forma a superá-la e adapta seu trabalho às novas condições.
+          - Age de acordo com os valores e princípios da organização mesmo em momentos de crise.
+        medium:
+          - Adapta-se a novas situações de trabalho, mostrando-se receptivo a novas idéias, mantendo o foco na realização de suas atividades.
+          - Reage construtivamente a situações de stress, focando a solução dos problemas apresentados.
+          - Enfrenta adequadamente situações adversas e sobrecargas mantendo o controle e o rendimento de suas atividades.
+          - Atua em processos de mudança, através de ações práticas e efetivas, visando minimizar impactos nas implantações de projetos ou alteração de processos.
+          - Demonstra apoio e colaboração a colegas em condições desfavoráveis de pressão, a fim de contribuir para a manutenção de um elevado nível de desempenho da equipe.
+          - Demonstra autocontrole em situações adversas, reagindo de maneira racional e planejada (não impulsivamente).
+          - Age de acordo com os valores e princípios da organização mesmo em momentos de crise.
+        advanced:
+          - Adapta-se a situações de conflitos, negociando novas ações que visem superar seu desempenho.
+          - Reconhece e lida adequadamente com situações de stress, de forma a suportar um desempenho consistente mesmo em condições críticas.
+          - Atua em situações imprevisíveis e tensas, priorizando metas e ações, agindo de forma segura, sem prejuízo do resultado.
+          - Identifica situações típicas de stress para a equipe e proativamente trabalha para minimizar seus efeitos.
+          - Dissemina o processo de mudança como uma oportunidade de crescimento, tanto profissional como pessoal.
+          - Demonstra apoio e colaboração a colegas em condições desfavoráveis de pressão, a fim de contribuir para a manutenção de um elevado nível de desempenho da equipe.
+          - Enfrenta adequadamente situações adversas e sobrecargas mantendo o controle e o rendimento de suas atividades e apoiando os demais profissionais da empresa.
+          - Age de acordo com os valores e princípios da organização mesmo em momentos de crise, inspirando, inclusive, outros profissionais.
+
+    - name: Visão de negócio
       description: >
         Compreender o negócio da empresa diante do contexto global e
         participar da implementação das estratégias e projetos, integrando o seu
         processo com as demais áreas da empresa.
+      levels:
+        basic:
+          - Atualiza-se sobre técnicas e tendências de mercado, por meio de leituras de revistas e livros especializados, além de pesquisas diversas.
+          - Entende como suas ações, atividades e atitudes podem influenciar ou interagir com outros processos da área.
+          - Possui interesse em se relacionar com os demais colegas da área para compreender todos os processos e atividades executadas na área e compreender o vínculo de sua atividade com as demais.
+          - Demonstra amplo conhecimento sobre sua área de atuação.
+          - Identifica e aponta informações relevantes que possam impactar nas atividades da sua área de atuação.
+        medium:
+          - Analisa variáveis internas e externas, relativas ao negócio, para integrar informações que impactam no seu processo de atuação.
+          - Demonstra compreender e visualiza a interação e conseqüências de uma ação em outra e no todo.
+          - Interage com profissionais de outros processos ou áreas, fornecendo e recebendo insumos suportado por seus conhecimentos técnicos e experiências.
+          - Demonstra amplo conhecimento sobre sua área de atuação bem como o negócio da empresa e seus objetivos estratégicos.
+          - Contribui com informações relevantes referentes a sua área de atuação, que subsidiam decisões empresariais.
+          - Sugere ações antecipando-se a riscos, ameaças e oportunidades.
+        advanced:
+          - Identifica e analisa as principais tendências que afetam sua área de atuação e o negócio da empresa e propõe, quando necessário, alternativas para minimizar os riscos e potencializar as oportunidades.
+          - Atua de forma integrada com outras áreas da empresa e com instituições diversas como parceiros, fornecedores, dentre outros, a fim de construir interesses comuns e condizentes ao negócio da organização.
+          - Propõe ações para integração dos processos de sua área com os demais com que se relaciona, visando elevar a eficiência dos processos e a qualidade das entregas.
+          - Conhece os principais concorrentes, parceiros, clientes, soluções, estratégias, pontos fortes e fracos da empresa.
+          - Contribui para a definição de estratégias de longo prazo consistentes com as tendências e características do ambiente externo.
+          - Apóia na definição de ações que possibilitam a implementação das estratégias e planos definidos pela diretoria, identificando impactos nas atividades da sua área de atuação.
+          - Antecipa ações vislumbrando riscos, ameaças e oportunidades antes que as mesmas tornem-se claras, demonstrando visão futura do negócio.

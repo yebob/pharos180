@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140704135303) do
+ActiveRecord::Schema.define(version: 20140704172550) do
 
   create_table "areas", force: true do |t|
     t.string   "name"
@@ -65,6 +65,16 @@ ActiveRecord::Schema.define(version: 20140704135303) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "skill_levels", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "skill_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "skill_levels", ["skill_id"], name: "index_skill_levels_on_skill_id"
 
   create_table "skill_relevances", force: true do |t|
     t.decimal  "score"
