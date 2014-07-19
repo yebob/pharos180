@@ -11,9 +11,18 @@ SKILLS = skills_file['skills']
 
 corp_cat = SkillCategory.create(name: 'Corporativo')
 
-SKILLS['corporate'].each do |skill|
-  skill['skill_category'] = corp_cat
+SKILLS['corporate'].each do |s|
 
-  Skill.create(skill)
-  p ".. Creating skill: #{skill['name']}"
+  levels = s['levels']
+
+  s['skill_category'] = corp_cat
+  s.delete 'levels'
+
+  skill = Skill.create(s)
+  puts "Created skill: #{skill.name}"
+
+  levels.each do |k, v|
+    sl = SkillLevel.create(name: k, description: v.join("\n"))
+    puts ".. Created skill: #{sl.name}"
+  end
 end
