@@ -1,3 +1,7 @@
 class User < ActiveRecord::Base
-  belongs_to :position
+
+  has_one :position
+
+  validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
+
 end
