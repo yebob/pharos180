@@ -28,12 +28,14 @@ ActiveRecord::Schema.define(version: 20140719212304) do
   create_table "position_skills", force: true do |t|
     t.integer  "position_id"
     t.integer  "level_id"
+    t.integer  "skill_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "position_skills", ["level_id"], name: "index_position_skills_on_level_id"
   add_index "position_skills", ["position_id"], name: "index_position_skills_on_position_id"
+  add_index "position_skills", ["skill_id"], name: "index_position_skills_on_skill_id"
 
   create_table "positions", force: true do |t|
     t.string   "name"
