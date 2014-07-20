@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   resources :specializations
   resources :levels
   resources :skill_relevances
+  resources :position_skills
   root 'dashboard#index'
 
 
