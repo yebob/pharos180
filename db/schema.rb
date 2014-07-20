@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140704184449) do
+ActiveRecord::Schema.define(version: 20140719212304) do
 
   create_table "areas", force: true do |t|
     t.string   "name"
@@ -25,43 +25,24 @@ ActiveRecord::Schema.define(version: 20140704184449) do
     t.datetime "updated_at"
   end
 
+  create_table "position_skills", force: true do |t|
+    t.integer  "position_id"
+    t.integer  "level_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "position_skills", ["level_id"], name: "index_position_skills_on_level_id"
+  add_index "position_skills", ["position_id"], name: "index_position_skills_on_position_id"
+
   create_table "positions", force: true do |t|
     t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
     t.integer  "area_id"
-    t.integer  "specialization_id"
-    t.integer  "profile_id"
-  end
-
-  add_index "positions", ["profile_id"], name: "index_positions_on_profile_id"
-
-  create_table "proficiency_levels", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "level_id"
-    t.integer  "skill_id"
-    t.integer  "position_id"
-  end
-
-  create_table "profiles", force: true do |t|
-    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "roles", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "roles_users", force: true do |t|
-    t.integer  "user_id"
-    t.integer  "role_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+  add_index "positions", ["area_id"], name: "index_positions_on_area_id"
 
   create_table "skill_categories", force: true do |t|
     t.string   "name"
@@ -70,45 +51,68 @@ ActiveRecord::Schema.define(version: 20140704184449) do
   end
 
   create_table "skill_levels", force: true do |t|
-    t.string   "name"
+    t.integer  "level_id"
+    t.integer  "skill_id"
     t.text     "description"
-    t.integer  "skill_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "skill_levels", ["level_id"], name: "index_skill_levels_on_level_id"
   add_index "skill_levels", ["skill_id"], name: "index_skill_levels_on_skill_id"
-
-  create_table "skill_relevances", force: true do |t|
-    t.decimal  "score"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "skill_id"
-    t.integer  "specialization_id"
-  end
 
   create_table "skills", force: true do |t|
     t.string   "name"
+    t.integer  "skill_category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "skill_category_id"
-    t.text     "description"
   end
+
+  add_index "skills", ["skill_category_id"], name: "index_skills_on_skill_category_id"
+
+  create_table "specialization_categories", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "specialization_skills", force: true do |t|
+    t.integer  "specialization_id"
+    t.integer  "skill_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "specialization_skills", ["skill_id"], name: "index_specialization_skills_on_skill_id"
+  add_index "specialization_skills", ["specialization_id"], name: "index_specialization_skills_on_specialization_id"
+
+  create_table "specialization_weights", force: true do |t|
+    t.integer  "weight"
+    t.integer  "specialization_id"
+    t.integer  "skill_category_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "specialization_weights", ["skill_category_id"], name: "index_specialization_weights_on_skill_category_id"
+  add_index "specialization_weights", ["specialization_id"], name: "index_specialization_weights_on_specialization_id"
 
   create_table "specializations", force: true do |t|
     t.string   "name"
+    t.integer  "specialization_category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "profile_id"
   end
+
+  add_index "specializations", ["specialization_category_id"], name: "index_specializations_on_specialization_category_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
-    t.string   "email"
     t.integer  "position_id"
-    t.integer  "profile_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "users", ["position_id"], name: "index_users_on_position_id"
 
 end
