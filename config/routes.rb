@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :position_skills
-
   resources :skills
   resources :positions
   resources :users
@@ -14,7 +12,6 @@ Rails.application.routes.draw do
   resources :specializations
   resources :levels
   resources :skill_relevances
-  resources :position_skills
   root 'dashboard#index'
 
 
