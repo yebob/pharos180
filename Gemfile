@@ -18,4 +18,5 @@ group :development, :test do
   gem 'pry-nav'
   gem 'quiet_assets'
   gem 'spring'
+  gem 'rspec-rails'
 end
