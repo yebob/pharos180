@@ -1,8 +1,8 @@
 class Skill < ActiveRecord::Base
 
-  belongs_to :position_skill
   belongs_to :skill_category
 
+  has_many :position_skill
   has_many :skill_levels
   has_many :specialization_skills
 
