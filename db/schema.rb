@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140722000002) do
+ActiveRecord::Schema.define(version: 20140722000856) do
 
   create_table "areas", force: true do |t|
     t.string   "name"
@@ -30,10 +30,12 @@ ActiveRecord::Schema.define(version: 20140722000002) do
     t.integer  "level_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "skill_id"
   end
 
   add_index "position_skills", ["level_id"], name: "index_position_skills_on_level_id"
   add_index "position_skills", ["position_id"], name: "index_position_skills_on_position_id"
+  add_index "position_skills", ["skill_id"], name: "index_position_skills_on_skill_id"
 
   create_table "positions", force: true do |t|
     t.string   "name"
