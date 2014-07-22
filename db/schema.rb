@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140719212304) do
+ActiveRecord::Schema.define(version: 20140722000002) do
 
   create_table "areas", force: true do |t|
     t.string   "name"
@@ -40,9 +40,11 @@ ActiveRecord::Schema.define(version: 20140719212304) do
     t.integer  "area_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "specialization_id"
   end
 
   add_index "positions", ["area_id"], name: "index_positions_on_area_id"
+  add_index "positions", ["specialization_id"], name: "index_positions_on_specialization_id"
 
   create_table "skill_categories", force: true do |t|
     t.string   "name"
