@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140722000856) do
+ActiveRecord::Schema.define(version: 20140722000002) do
 
   create_table "areas", force: true do |t|
     t.string   "name"
@@ -31,7 +31,6 @@ ActiveRecord::Schema.define(version: 20140722000856) do
     t.integer  "skill_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "skill_id"
   end
 
   add_index "position_skills", ["level_id"], name: "index_position_skills_on_level_id"
