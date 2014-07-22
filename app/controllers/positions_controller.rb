@@ -70,10 +70,10 @@ class PositionsController < ApplicationController
 
     def areas
       @areas = Area.all.pluck(:name,:id)
-    end  
+    end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def position_params
-      params.require(:position).permit(:name, :area_id)
+      params.require(:position).permit(:name, :area_id, :specialization_id)
     end
 end
