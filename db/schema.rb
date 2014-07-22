@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20140722000856) do
   create_table "position_skills", force: true do |t|
     t.integer  "position_id"
     t.integer  "level_id"
+    t.integer  "skill_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "skill_id"
