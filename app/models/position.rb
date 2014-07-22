@@ -5,7 +5,7 @@ class Position < ActiveRecord::Base
 
   has_many :users
   has_many :position_skills
-  has_many :skill, through: :position_skills
+  has_many :skills, through: :position_skills
 
   validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
 end
