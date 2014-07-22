@@ -29,6 +29,15 @@ Configuration
 
 Make sure you have [editorconfig](editorconfig.org) plugin installed into your favorite editor
 
+Tests
+----
+
+Running tests
+```
+rspec
+```
+
+
 License
 ----
 
