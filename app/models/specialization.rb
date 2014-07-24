@@ -1,15 +1,12 @@
 class Specialization < ActiveRecord::Base
 
-	# such as mantenedor, criador, rotina
+  belongs_to :specialization_category
 
-	has_many :skill_relevances
-	has_many :skills, through: :skill_relevances
-	has_many :positions
-	belongs_to :profile
+  has_many :specialization_skills
+  has_many :specialization_weights
+  has_many :positions
+  has_many :skill, through: :specialization_skills
 
-	def profile_spec_name
-		spec_name = "#{profile.name} - " if profile
+  validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
 
-		return "#{spec_name}#{name}"
-	end
 end

@@ -1,12 +1,14 @@
 class Position < ActiveRecord::Base
-  # such as developer jr., DBA, CIO
 
   belongs_to :area
-  belongs_to :profile
   belongs_to :specialization
 
-  has_many :proficiency_levels
   has_many :users
+  has_many :position_skills
+  has_many :skills, through: :position_skills
 
-  validates :name, presence: true, allow_blank: false
+  validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
+
+  validates :area, presence: true
+  validates :specialization, presence: true
 end

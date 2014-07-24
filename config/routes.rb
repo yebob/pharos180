@@ -1,17 +1,19 @@
 Rails.application.routes.draw do
 
+  resources :specialization_weights
+  resources :skill_levels
+  resources :specialization_skills
+  resources :specialization_categories
+
   resources :skills
   resources :positions
   resources :users
   resources :areas
   resources :profiles
-  resources :roles
-  resources :roles_users
   resources :skill_categories
-  resources :proficiency_levels
   resources :specializations
   resources :levels
-  resources :skill_relevances
+  resources :position_skills
   root 'dashboard#index'
 
 
