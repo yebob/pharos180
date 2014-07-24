@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :specialization_skills
   resources :specialization_categories
 
   resources :skills
