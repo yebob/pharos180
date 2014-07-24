@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+  resources :specialization_weights
+  resources :skill_levels
+  resources :specialization_skills
+  resources :specialization_categories
+
   resources :skills
   resources :positions
   resources :users

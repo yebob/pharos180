@@ -1,0 +1,23 @@
+<h1>Listing specialization_categories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @specialization_categories.each do |specialization_category| %>
+      <tr>
+        <td><%= link_to 'Show', specialization_category %></td>
+        <td><%= link_to 'Edit', edit_specialization_category_path(specialization_category) %></td>
+        <td><%= link_to 'Destroy', specialization_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Specialization category', new_specialization_category_path %>

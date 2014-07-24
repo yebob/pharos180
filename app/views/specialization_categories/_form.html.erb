@@ -1,0 +1,17 @@
+<%= form_for(@specialization_category) do |f| %>
+  <% if @specialization_category.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@specialization_category.errors.count, "error") %> prohibited this specialization_category from being saved:</h2>
+
+      <ul>
+      <% @specialization_category.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
