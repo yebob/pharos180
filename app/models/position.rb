@@ -8,4 +8,7 @@ class Position < ActiveRecord::Base
   has_many :skills, through: :position_skills
 
   validates :name, presence: true, allow_blank: false, length: { minimum: 5 }
+
+  validates :area, presence: true
+  validates :specialization, presence: true
 end
