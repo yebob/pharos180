@@ -1,0 +1,17 @@
+<%= form_for(@specialization_weight) do |f| %>
+  <% if @specialization_weight.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@specialization_weight.errors.count, "error") %> prohibited this specialization_weight from being saved:</h2>
+
+      <ul>
+      <% @specialization_weight.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
