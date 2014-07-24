@@ -19,7 +19,7 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'shoulda-matchers'
 end
