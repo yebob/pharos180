@@ -14,6 +14,8 @@ class SpecializationsController < ApplicationController
 
   # GET /specializations/new
   def new
+    @specialization_categories = SpecializationCategory.all
+    @skills = Skill.includes(:skill_category).all
     @specialization = Specialization.new
   end
 
