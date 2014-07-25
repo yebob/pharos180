@@ -1,10 +1,13 @@
-require "rails_helper"
+require 'rails_helper'
 
-describe Level do
-  it { should have_many(:position_skills) }
-  it { should have_many(:skill_levels) }
+describe SkillCategory do
+
+  it { should have_many(:specialization_weights) }
+  it { should have_many(:skills) }
 
   it { should allow_value('foobar').for(:name) }
   it { should_not allow_value('foo').for(:name) }
   it { should_not allow_value('').for(:name) }
+
+
 end

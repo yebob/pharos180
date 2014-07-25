@@ -1,0 +1,23 @@
+<h1>Listing specialization_skills</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @specialization_skills.each do |specialization_skill| %>
+      <tr>
+        <td><%= link_to 'Show', specialization_skill %></td>
+        <td><%= link_to 'Edit', edit_specialization_skill_path(specialization_skill) %></td>
+        <td><%= link_to 'Destroy', specialization_skill, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Specialization skill', new_specialization_skill_path %>
