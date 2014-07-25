@@ -12,17 +12,16 @@ SKILLS = skills_file['skills']
 POSITIONS = positions_file['positions']
 
 # SKILLS
-
 SKILLS.each do |sk_name, skills|
-  skill_category = SkillCategory.create(name: sk_name)
+  skill_category = SkillCategory.find_or_create_by(name: sk_name)
   skills.each do |skill|
-    skill_model = Skill.create(name: skill['name'])
+    skill_model = Skill.create!(name: skill['name'], skill_category: skill_category)
     puts "Created skill: #{skill_model.name}"
 
     skill['levels'].each do |level_name, description|
-      level = Level.create(name: level_name)
+      level = Level.find_or_create_by(name: level_name)
 
-      sl = SkillLevel.create(skill: skill_model, level: level, description: description.join("\n"))
+      sl = SkillLevel.create!(skill: skill_model, level: level, description: description.join("\n"))
       puts ".. Created skill: #{sl.description}"
     end
   end
