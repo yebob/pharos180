@@ -17,7 +17,9 @@ RSpec.describe SpecializationsController do
       technician = create(:technician)
       get :new
 
-      expect(assigns(:specialization_categories)).to match_array([technician])
+      expect(assigns(:specialization_categories)).to match_array([
+        ["Technician", technician.id]
+      ])
     end
 
     it "loads all skills" do
@@ -27,6 +29,20 @@ RSpec.describe SpecializationsController do
       get :new
 
       expect(assigns(:skills)).to match_array([inovation_skill, relashionship_skill])
+    end
+
+    it "loads all skill categories" do
+      corporate = create(:corporate)
+      specific = create(:specific)
+      management = create(:management)
+
+      get :new
+
+      expect(assigns(:skill_categories)).to match_array([
+        corporate,
+        specific,
+        management
+      ])
     end
   end
 end
