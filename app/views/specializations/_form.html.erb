@@ -11,7 +11,34 @@
     </div>
   <% end %>
 
-   Specialization Name: <%= f.text_field :name %>
+  Specialization Category:
+  <%= f.select :specialization_category, @specialization_categories %>
+  <br />
+
+  Specialization Name:
+  <%= f.text_field :name %>
+  <br />
+
+  <h2>Skills</h2>
+
+  <ul id="skills">
+  <% @skills.each do |s| %>
+    <li>
+      <%= s.name %>
+      <input type="checkbox" name="specialization[skills][]" value="<%= s.id %>" />
+    </li>
+  <% end %>
+  </ul>
+
+  <h2>Relevância</h2>
+  <p>Determine quanto de relevância uma categoria de competências tem em relação a outra.
+    <small>(Não deve ultrapassar 100%)</small>
+  </p>
+
+  <% @skill_categories.each do |sc| %>
+  <%= sc.name %>: <input type="text" name="specialization[weights][<%= sc.id %>]" />
+  <br />
+  <% end %>
 
   <div class="actions">
     <%= f.submit %>
