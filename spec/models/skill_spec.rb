@@ -5,7 +5,7 @@ describe Skill do
   it { should allow_value(build(:corporate)).for(:skill_category) }
   it { should_not allow_value(nil).for(:skill_category) }
 
-  it { should have_many(:position_skill) }
+  it { should have_many(:position_skills) }
   it { should have_many(:skill_levels) }
   it { should have_many(:specialization_skills) }
 
