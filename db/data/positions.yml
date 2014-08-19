@@ -1,557 +1,557 @@
 positions:
   - position: Administrador de Banco de Dados Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Administrador de Banco de Dados Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Administrador de Banco de Dados Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Administrador de Sistemas Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Administrador de Sistemas Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Administrador de Sistemas Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Analista da Qualidade Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Analista da Qualidade Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Analista da Qualidade Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Analista de Suporte Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Analista de Suporte Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Analista de Suporte Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Assistente Adm de Vendas
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Vendas
   - position: Analista de Adm. Vendas Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Vendas
   - position: Analista de Adm. Vendas Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Vendas
   - position: Analista de Adm. Vendas Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Vendas
   - position: Analista de Assuntos Regulatórios Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Regulatórios
   - position: Aprendiz de Assuntos Regulatórios
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Regulatórios
   - position: Assistente de Assuntos Regulatórios
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Regulatórios
   - position: Analista de Assuntos Regulatórios Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Regulatórios
   - position: Analista de Assuntos Regulatórios Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Regulatórios
   - position: Assistente de BackOffice Fornecedores
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Forn. Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Forn. Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Forn. Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Assistente de BackOffice Hospitais
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Hosp. Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Hosp. Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Hosp. Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Implementação Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Implementação Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de BackOffice Implementação Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: BackOffice
   - position: Analista de Cadastro Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Cadastro
   - position: Analista de Cadastro Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Cadastro
   - position: Analista de Cadastro Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Cadastro
   - position: Analista de Comercialização Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial
   - position: Analista de Comercialização Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial
   - position: Analista de Comercialização Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial
   - position: Analista de Desenvolv. de Produtos Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Produtos
   - position: Analista de Desenvolv. de Produtos Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Produtos
   - position: Analista de Desenvolv. de Produtos Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Produtos
   - position: Analista de Implementação Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Implementação
   - position: Analista de Implementação Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Implementação
   - position: Analista de Implementação Sr. - SEM GESTÃO
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Implementação
   - position: Analista de Implementação Sr. - COM GESTÃO
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Implementação
   - position: Analista de Integração Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Integração
   - position: Analista de Integração Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Integração
   - position: Analista de Integração Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Integração
   - position: Analista de Inteligência de Mercado Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Mercado
   - position: Analista de Inteligência de Mercado Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Mercado
   - position: Analista de Inteligência de Mercado Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Mercado
   - position: Analista de Inteligência de Negócio Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Negócio
   - position: Analista de Inteligência de Negócio Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Negócio
   - position: Analista de Inteligência de Negócio Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Inteligência de Negócio
   - position: Analista de Marketing Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Marketing
   - position: Analista de Marketing Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Marketing
   - position: Analista de Marketing Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Marketing
   - position: Analista de Negócios em TI Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Negócios
   - position: Analista de Negócios em TI Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Negócios
   - position: Analista de Negócios em TI Sr. - SEM GESTÃO
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Negócios
   - position: Analista de Negócios em TI Sr. - COM GESTÃO
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Negócios
   - position: Analista de Planejamento Financeiro Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Planejamento Financeiro
   - position: Analista de Planejamento Financeiro Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Planejamento Financeiro
   - position: Analista de Planejamento Financeiro Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Planejamento Financeiro
   - position: Assistente de Recursos Humanos
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Gestão de Pessoas
   - position: Assistente de Relac. Forne.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Relacionamento
   - position: Analista de Relac. Forne. Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Relacionamento
   - position: Analista de Relac. Forne. Pl.
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Relacionamento
   - position: Analista de Relac. Forne. Sr.
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Relacionamento
   - position: Analista de Serviços Adm. Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Serviços
   - position: Analista de Serviços Adm. Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Serviços
   - position: Analista de Serviços Adm. Sr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Serviços
   - position: Analista de Sistemas Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Tecnologia
   - position: Analista de Sistemas Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Tecnologia
   - position: Analista de Sistemas Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Tecnologia
   - position: Analista Desenvolvedor Java Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Analista Desenvolvedor Java Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Analista Desenvolvedor Java Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Assistente Financeiro
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Financeiro
   - position: Analista Financeiro Jr.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Financeiro
   - position: Analista Financeiro Pl.
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Financeiro
   - position: Analista Financeiro Sr.
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Financeiro
   - position: Assistente Jurídico
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Jurídico
   - position: Assistente de Service Desk
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
     area: Tecnologia
   - position: Assessora Técnica de OPME
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Assessoria
   - position: Auxiliar de Vendas
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Vendas
   - position: Coordenador de BackOffice Hosp. e Forn./Assun. Reg.
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: BackOffice
   - position: Coordenador de Controladoria
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Controladoria
   - position: Coordenador de Desenvolvimento de Produtos
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Produtos
   - position: Coordenador de Facilities e Adm.
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Facilities e Adm
   - position: Coordenador de Implementação - COM GESTÃO
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Implementação
   - position: Coordenador de Implementação - SEM GESTÃO
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
     area: Implementação
   - position: Coordenador de Infraestrutura
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Coordenador de Negócios em TI
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Coordenador de Novos Negócios
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
     area: Novos Negócios
   - position: Coordenador de Planejamento Financeiro
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Planejamento Financeiro
   - position: Coordenador de Desenvolvimento
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Coordenador de Relações Institucionais
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Relações Institucionais
   - position: Coordenador de Serviços Administrativos
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Serviços Administrativos
   - position: Coodenador de Sistemas
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: CIO
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Desenvolvedor Java Jr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Desenvolvedor Java Pl.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Desenvolvedor Java Sr.
-    specialization_catgory: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
     area: Tecnologia
   - position: Diretor de Finanças
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Finanças
   - position: Diretor Comercial Forn., Mkt. e Novos Produtos
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area:  Comercial, Mkt. e Novos Produtos
   - position: Diretor Comercial Publinexo Público
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area:  Comercial
   - position: Diretor de Contas Estratégicas
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area:  Contas Estratégicas
   - position: Diretor de Estratégia de Crescimento
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Estratégia de Crescimento
   - position: Diretor de Implementação
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Implementação
   - position: Diretor de Operações em TI
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Diretor Executivo de Desenv. De Negócios
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Desenv. De Negócios
   - position: Encarregada de Serviços Gerais
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
     area: Serviços Gerais
   - position: Especialista de Administração de Sistemas
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Tecnologia
   - position: Especialista de Sistemas
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Tecnologia
   - position: Especialista em Usabilidade
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Tecnologia
   - position: Especialista de Marketing Digital
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Marketing
   - position: Especialista de Projetos
-    specialization_catgory: Suporte
+    specialization_category: Suporte
     specialization: Projetos
     area: Tecnologia
   - position: Estagiário Administrativo
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Administrativo
   - position: Estagiário Comercial Fornecedores
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Comercial
   - position: Estagiário de Assuntos Regulatórios
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Assuntos Regulatórios
   - position: Estagiário de BackOffice Fornecedores
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: BackOffice
   - position: Estagiário de Comunicação
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Comunicação
   - position: Estagiário de Infonexo
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Infonexo
   - position: Estagiário de Negócios em TI
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Tecnologia
   - position: Estagiário Jurídico
-    specialization_catgory: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
     area: Jurídico
   - position: Gerente Comercial Hospitais
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Comercial
   - position: Gerente de Comunicação
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Comunicação
   - position: Gerente de Desenvolv. de Produtos
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Produtos
   - position: Gerente de Implementação
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Implementação
   - position: Gerente de Recursos Humanos
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Gestão de Pessoas
   - position: Gerente Jurídico
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Jurídico
   - position: Gerente de Operações em TI
-    specialization_catgory: Executivos
+    specialization_category: Executivos
     specialization: Liderança
     area: Tecnologia
   - position: Representante Comercial Jr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial
   - position: Representante Comercial Pl.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial
   - position: Representante Comercial Sr.
-    specialization_catgory: Negócios
+    specialization_category: Negócios
     specialization: Comercial
     area: Comercial

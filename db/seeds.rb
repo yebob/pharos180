@@ -11,51 +11,41 @@ positions_file = YAML.load_file(File.join(Rails.root, 'db/data/positions.yml'))
 SKILLS = skills_file['skills']
 POSITIONS = positions_file['positions']
 
-# SKILLS
-# SKILLS.each do |sk_name, skills|
-#   skill_category = SkillCategory.find_or_create_by(name: sk_name)
-#   skills.each do |skill|
-#     skill_model = Skill.create!(name: skill['name'], skill_category: skill_category)
-#     puts "Created skill: #{skill_model.name}"
+SKILLS
+SKILLS.each do |sk_name, skills|
+  skill_category = SkillCategory.find_or_create_by(name: sk_name)
+  skills.each do |skill|
+    skill_model = Skill.create!(name: skill['name'], skill_category: skill_category)
+    puts "Created skill: #{skill_model.name}"
 
-#     skill['levels'].each do |level_name, description|
-#       level = Level.find_or_create_by(name: level_name)
+    skill['levels'].each do |level_name, description|
+      level = Level.find_or_create_by(name: level_name)
 
-#       sl = SkillLevel.create!(skill: skill_model, level: level, description: description.join("\n"))
-#       puts ".. Created skill: #{sl.description}"
-#     end
-#   end
-# end
+      sl = SkillLevel.create!(skill: skill_model, level: level, description: description.join("\n"))
+      puts ".. Created skill: #{sl.description}"
+    end
+  end
+end
 
 
 # POSITIONS
 
 POSITIONS.each do |position|
-  p position['position']
 
-# Criação da Specialization_category
-  specialization_category = SpecializationCategory.find_or_create_by()
-# Criação da Specialization
+  specialization_category = SpecializationCategory.find_or_create_by(name: position['specialization_category'])
 
-# Criação da Area
-  position
+  specialization = Specialization.find_or_create_by(name: position['specialization'],
+    specialization_category: specialization_category)
 
+  area = Area.find_or_create_by(name: position['area'])
 
+  pos = Position.find_or_create_by(name: position['position'],
+    area: area, specialization: specialization)
 
-  # position = Position.find_or_create_by(name: positions['position'], AREA, SPECIALIZATION)
+  puts "Created position: #{pos.name}"
+  puts ".. Using specialization: ##{specialization.id} #{specialization.name}"
+  puts ".. Using specialization_category: ##{specialization_category.id} #{specialization_category.name}"
+  puts ".. Using area: ##{area.id} #{area.name}"
+
 end
 
-# POSITIONS.each do |pos|
-#   profile = Profile.find_or_create_by(name: pos['profile'])
-#   specialization = Specialization.find_or_create_by(name: pos['specialization'])
-
-#   position = Position.create(
-#     name: pos['position'],
-#     profile: profile,
-#     specialization: specialization
-#   )
-
-#   puts "Created position: #{position.name}"
-#   puts ".. Using profile: ##{profile.id} #{profile.name}"
-#   puts ".. Using specialization: ##{specialization.id} #{specialization.name}"
-# end

@@ -10,6 +10,7 @@
   <tbody>
     <% @specialization_categories.each do |specialization_category| %>
       <tr>
+        <td><%=specialization_category.name%></td>
         <td><%= link_to 'Show', specialization_category %></td>
         <td><%= link_to 'Edit', edit_specialization_category_path(specialization_category) %></td>
         <td><%= link_to 'Destroy', specialization_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
