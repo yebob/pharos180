@@ -117,7 +117,7 @@ skills:
           - Estabelece parâmetros para divulgação de informações, internas e externas, mantendo reserva nos assuntos confidenciais, preservando a imagem da área e da empresa.
           - Pratica e orienta a equipe a possuir postura ética no relacionamento e atendimento aos clientes, parceiros, fornecedores e colegas e no desenvolvimento dos trabalhos.
           - Reportar ou dividir com gestor (outras instâncias competentes) situações em que claramente haja algum desvio de conduta.
-
+  management:
     - name: Gestão de pessoas
       description: >
         Gerenciar pessoas, desenvolvendo-as, valorizando-as, agindo com justiça,
@@ -200,7 +200,7 @@ skills:
           - Desenvolve estratégias de longo prazo consistentes com o princípio e direcionamento da empresa.
           - Atua de forma integrada com outras áreas da empresa e com instituições diversas (parceiros, fornecedores, etc), fornecendo insumos com base em seus conhecimentos e experiências.
           - Traduz estratégias do negócio em prioridades claras e específicas.
-
+  specific:
     - name: Capacidade analítica
       description: >
         Captar, organizar, interpretar e analisar criticamente dados e informações,
