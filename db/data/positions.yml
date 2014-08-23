@@ -1,418 +1,557 @@
 positions:
   - position: Administrador de Banco de Dados Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Administrador de Banco de Dados Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Administrador de Banco de Dados Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Administrador de Sistemas Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Administrador de Sistemas Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Administrador de Sistemas Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Analista da Qualidade Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Analista da Qualidade Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Analista da Qualidade Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Analista de Suporte Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Analista de Suporte Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Analista de Suporte Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Assistente Adm de Vendas
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Vendas
   - position: Analista de Adm. Vendas Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Vendas
   - position: Analista de Adm. Vendas Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Vendas
   - position: Analista de Adm. Vendas Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Vendas
   - position: Analista de Assuntos Regulatórios Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Regulatórios
   - position: Aprendiz de Assuntos Regulatórios
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Regulatórios
   - position: Assistente de Assuntos Regulatórios
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Regulatórios
   - position: Analista de Assuntos Regulatórios Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Regulatórios
   - position: Analista de Assuntos Regulatórios Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Regulatórios
   - position: Assistente de BackOffice Fornecedores
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Forn. Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Forn. Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Forn. Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Assistente de BackOffice Hospitais
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Hosp. Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Hosp. Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Hosp. Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Implementação Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Implementação Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de BackOffice Implementação Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: BackOffice
   - position: Analista de Cadastro Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Cadastro
   - position: Analista de Cadastro Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Cadastro
   - position: Analista de Cadastro Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Cadastro
   - position: Analista de Comercialização Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
   - position: Analista de Comercialização Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
   - position: Analista de Comercialização Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
   - position: Analista de Desenvolv. de Produtos Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Produtos
   - position: Analista de Desenvolv. de Produtos Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Produtos
   - position: Analista de Desenvolv. de Produtos Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Produtos
   - position: Analista de Implementação Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Implementação
   - position: Analista de Implementação Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Implementação
   - position: Analista de Implementação Sr. - SEM GESTÃO
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Implementação
   - position: Analista de Implementação Sr. - COM GESTÃO
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Implementação
   - position: Analista de Integração Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Integração
   - position: Analista de Integração Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Integração
   - position: Analista de Integração Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Integração
   - position: Analista de Inteligência de Mercado Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Mercado
   - position: Analista de Inteligência de Mercado Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Mercado
   - position: Analista de Inteligência de Mercado Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Mercado
   - position: Analista de Inteligência de Negócio Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Negócio
   - position: Analista de Inteligência de Negócio Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Negócio
   - position: Analista de Inteligência de Negócio Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Inteligência de Negócio
   - position: Analista de Marketing Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Marketing
   - position: Analista de Marketing Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Marketing
   - position: Analista de Marketing Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Marketing
   - position: Analista de Negócios em TI Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Negócios
   - position: Analista de Negócios em TI Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Negócios
   - position: Analista de Negócios em TI Sr. - SEM GESTÃO
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Negócios
   - position: Analista de Negócios em TI Sr. - COM GESTÃO
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Negócios
   - position: Analista de Planejamento Financeiro Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Planejamento Financeiro
   - position: Analista de Planejamento Financeiro Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Planejamento Financeiro
   - position: Analista de Planejamento Financeiro Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Planejamento Financeiro
   - position: Assistente de Recursos Humanos
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Gestão de Pessoas
   - position: Analista de Recursos Humanos Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Gestão de Pessoas
   - position: Assistente de Relac. Forne.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Relacionamento
   - position: Analista de Relac. Forne. Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Relacionamento
   - position: Analista de Relac. Forne. Pl.
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Relacionamento
   - position: Analista de Relac. Forne. Sr.
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Relacionamento
   - position: Analista de Serviços Adm. Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Serviços
   - position: Analista de Serviços Adm. Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Serviços
   - position: Analista de Serviços Adm. Sr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Serviços
   - position: Analista de Sistemas Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Tecnologia
   - position: Analista de Sistemas Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Tecnologia
   - position: Analista de Sistemas Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Tecnologia
   - position: Analista Desenvolvedor Java Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Analista Desenvolvedor Java Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Analista Desenvolvedor Java Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Assistente Financeiro
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Financeiro
   - position: Analista Financeiro Jr.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Financeiro
   - position: Analista Financeiro Pl.
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Financeiro
   - position: Analista Financeiro Sr.
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Financeiro
   - position: Assistente Jurídico
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Jurídico
   - position: Assistente de Service Desk
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Mantenedores
+    area: Tecnologia
   - position: Assessora Técnica de OPME
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Assessoria
   - position: Auxiliar de Vendas
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Vendas
   - position: Coordenador de BackOffice Hosp. e Forn./Assun. Reg.
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: BackOffice
   - position: Coordenador de Controladoria
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Controladoria
   - position: Coordenador de Desenvolvimento de Produtos
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Produtos
   - position: Coordenador de Facilities e Adm.
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Facilities e Adm
   - position: Coordenador de Implementação - COM GESTÃO
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Implementação
   - position: Coordenador de Implementação - SEM GESTÃO
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Atenção ao Cliente
+    area: Implementação
   - position: Coordenador de Infraestrutura
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Coordenador de Negócios em TI
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Coordenador de Novos Negócios
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Unidades de Negócio
+    area: Novos Negócios
   - position: Coordenador de Planejamento Financeiro
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Planejamento Financeiro
   - position: Coordenador de Desenvolvimento
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Coordenador de Relações Institucionais
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Relações Institucionais
   - position: Coordenador de Serviços Administrativos
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Serviços Administrativos
   - position: Coodenador de Sistemas
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: CIO
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Desenvolvedor Java Jr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Desenvolvedor Java Pl.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Desenvolvedor Java Sr.
-    profile: Técnicas
+    specialization_category: Técnicas
     specialization: Criadores
+    area: Tecnologia
   - position: Diretor de Finanças
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Finanças
   - position: Diretor Comercial Forn., Mkt. e Novos Produtos
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area:  Comercial, Mkt. e Novos Produtos
   - position: Diretor Comercial Publinexo Público
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area:  Comercial
   - position: Diretor de Contas Estratégicas
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area:  Contas Estratégicas
   - position: Diretor de Estratégia de Crescimento
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Estratégia de Crescimento
   - position: Diretor de Implementação
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Implementação
   - position: Diretor de Operações em TI
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Diretor Executivo de Desenv. De Negócios
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Desenv. De Negócios
   - position: Encarregada de Serviços Gerais
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Rotinas
+    area: Serviços Gerais
   - position: Especialista de Administração de Sistemas
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Tecnologia
   - position: Especialista de Sistemas
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Tecnologia
   - position: Especialista em Usabilidade
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Tecnologia
   - position: Especialista de Marketing Digital
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Marketing
   - position: Especialista de Projetos
-    profile: Suporte
+    specialization_category: Suporte
     specialization: Projetos
+    area: Tecnologia
   - position: Estagiário Administrativo
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Administrativo
   - position: Estagiário Comercial Fornecedores
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Comercial
   - position: Estagiário de Assuntos Regulatórios
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Assuntos Regulatórios
   - position: Estagiário de BackOffice Fornecedores
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: BackOffice
   - position: Estagiário de Comunicação
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Comunicação
   - position: Estagiário de Infonexo
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Infonexo
   - position: Estagiário de Negócios em TI
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Tecnologia
   - position: Estagiário Jurídico
-    profile: Estagiário
+    specialization_category: Estagiário
     specialization: Estagiário
+    area: Jurídico
   - position: Gerente Comercial Hospitais
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Comercial
   - position: Gerente de Comunicação
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Comunicação
   - position: Gerente de Desenvolv. de Produtos
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Produtos
   - position: Gerente de Implementação
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Implementação
   - position: Gerente de Recursos Humanos
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Gestão de Pessoas
   - position: Gerente Jurídico
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Jurídico
   - position: Gerente de Operações em TI
-    profile: Executivos
+    specialization_category: Executivos
     specialization: Liderança
+    area: Tecnologia
   - position: Representante Comercial Jr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
   - position: Representante Comercial Pl.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
   - position: Representante Comercial Sr.
-    profile: Negócios
+    specialization_category: Negócios
     specialization: Comercial
+    area: Comercial
