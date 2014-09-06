@@ -1,4 +1,5 @@
-<%= form_for(@specialization) do |f| %>
+<%= simple_form_for @specialization do |f| %>
+
   <% if @specialization.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@specialization.errors.count, "error") %> prohibited this specialization from being saved:</h2>
@@ -11,7 +12,28 @@
     </div>
   <% end %>
 
-   Specialization Name: <%= f.text_field :name %>
+  <%= f.association :specialization_category,
+    collection: @specialization_categories
+  %>
+  <br />
+
+  Specialization Name:
+  <%= f.text_field :name %>
+  <br />
+
+  <h2>Skills</h2>
+
+  <%= f.association :skills, as: :check_boxes %>
+
+  <h2>Relevância</h2>
+  <p>Determine quanto de relevância uma categoria de competências tem em relação a outra.
+    <small>(Não deve ultrapassar 100%)</small>
+  </p>
+
+  <% @skill_categories.each do |sc| %>
+  <%= sc.name %>: <input type="text" name="specialization[weights][<%= sc.id %>]" />
+  <br />
+  <% end %>
 
   <div class="actions">
     <%= f.submit %>
